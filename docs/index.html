@@ -52,12 +52,19 @@
 				</div>
 			</div>
 
-			<form class="flex-w flex-c-m contact100-form validate-form p-t-15">
-				<div class="wrap-input100 validate-input where1" data-validate="Se requiere correo electrónico: ejemplo@gmail.com">
-					<input class="s1-txt2 placeholder0 input100" type="text" name="email" placeholder="Su correo electrónico">
+			<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" class="flex-w flex-c-m contact100-form validate-form p-t-15">
+				<div class="wrap-input100 validate-input where1" data-validate="Se requiere nombre">
+					<input class="s1-txt2 placeholder0 input100" type="text" name="name" placeholder="Su nombre">
 					<span class="focus-input100"></span>
 				</div>
-				<button class="flex-c-m s1-txt3 size3 how-btn trans-04 where1">
+				<div class="wrap-input100 validate-input where1" data-validate="Se requiere correo electrónico: ejemplo@gmail.com">
+					<input class="s1-txt2 placeholder0 input100" type="email" name="email" placeholder="Su correo electrónico">
+					<span class="focus-input100"></span>
+				</div>
+				<input type="hidden" name="thankyou_url" value="https://sixartmedia.academy/wp-content/uploads/2019/09/gracias-por-suscribirte.png" />
+				<input type="hidden" name="campaign_token" value="Qx2q8" />
+				<input type="hidden" name="start_day" value="0" />
+				<button type="submit" class="flex-c-m s1-txt3 size3 how-btn trans-04 where1">
 					Suscríbete
 				</button>
 			</form>
