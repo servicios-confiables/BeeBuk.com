@@ -1,0 +1,198 @@
+/*skin 6 - material*/
+body{
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: 300;
+	letter-spacing: -0.015625em;
+}
+
+h2{
+	font-size: 2.75rem;
+	line-height: 2.75rem;
+	font-weight: 300;
+	letter-spacing: -0.0083333333em;
+}
+
+h2.entry-title,
+h3{
+	font-size: 2rem;
+	line-height: 2.125rem;
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+h4{
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+	letter-spacing: .0073529412em;
+}
+
+h5{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	letter-spacing: normal;
+}
+
+h6{
+	font-size: 1.15rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+	letter-spacing: .0125em;
+}
+
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea,
+select{
+	border-radius: 3px;
+	border: none;
+	background-color: var(--colorBackground);
+}
+
+.btns-rounded input[type=date],
+.btns-rounded input[type=datetime],
+.btns-rounded input[type=datetime-local],
+.btns-rounded input[type=email],
+.btns-rounded input[type=month],
+.btns-rounded input[type=number],
+.btns-rounded input[type=password],
+.btns-rounded input[type=search],
+.btns-rounded input[type=tel],
+.btns-rounded input[type=text],
+.btns-rounded input[type=time],
+.btns-rounded input[type=url],
+.btns-rounded input[type=week],
+.btns-rounded textarea,
+.btns-rounded select{
+	border-radius: 6px;
+}
+
+.btns-round input[type=date],
+.btns-round input[type=datetime],
+.btns-round input[type=datetime-local],
+.btns-round input[type=email],
+.btns-round input[type=month],
+.btns-round input[type=number],
+.btns-round input[type=password],
+.btns-round input[type=search],
+.btns-round input[type=tel],
+.btns-round input[type=text],
+.btns-round input[type=time],
+.btns-round input[type=url],
+.btns-round input[type=week],
+.btns-round textarea,
+.btns-round select{
+	border-radius: 30px;
+}
+
+.i input,
+.i select,
+.i textarea{
+	background-color: rgba(255, 255, 255, .05);
+}
+
+[type=reset],
+[type=button],
+[type=submit],
+.wp-block-button__link{
+	font-size: .875rem;
+	font-weight: 500;
+	letter-spacing: .0892857143em;
+}
+
+.widget-title{
+	font-size: .75rem;
+	line-height: 2rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.entry-footer{
+	font-size: .875rem;
+	line-height: 1.375rem;
+	font-weight: 500;
+	letter-spacing: .0071428571em;
+}
+
+.wp-block-latest-posts li,
+.wp-block-latest-comments:not(.has-avatars) li,
+.wp-block-categories-list li,
+.wp-block-archives-list li,
+.widget_archive li,
+.widget_categories li,
+.widget_pages li,
+.widget_meta li,
+.widget_nav_menu li,
+.widget_recent_entries li,
+.widget_product_categories li,
+.widget_layered_nav li,
+.woocommerce-MyAccount-navigation li{
+	margin: 0;
+}
+
+.wp-block-latest-posts li a,
+.wp-block-latest-comments:not(.has-avatars) li a,
+.wp-block-categories-list li a,
+.wp-block-archives-list li a,
+.widget_archive li a,
+.widget_categories li a,
+.widget_pages li a,
+.widget_meta li a,
+.widget_nav_menu li a,
+.widget_recent_entries li a,
+.widget_product_categories li a,
+.widget_layered_nav li a,
+.woocommerce-MyAccount-navigation li a{
+	display: inline-block;
+	padding: .4em 0;
+}
+
+@media screen and (max-width: 1199px) {
+	.top-nav .top-menu > li{
+		padding: 0;
+	}
+
+	.top-nav li:before{
+		display: none;
+	}
+
+	.top-nav a{
+		display: block;
+		margin: 0 -20px;
+		padding: .4em 2em;
+	}
+
+	.top-nav a:hover{
+		background-color: var(--colorBackground);
+	}
+
+	.top-nav ul ul{
+		font-size: inherit;
+		margin-top: 0;
+	}
+
+	.top-nav ul ul a{
+		padding-left: 3em;
+	}
+}

@@ -1,0 +1,188 @@
+.exs-share a{
+	text-decoration: none !important;
+}
+
+.exs-css-dropdown{
+	position: relative;
+}
+
+.exs-css-dropdown input{
+	opacity: 0;
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+
+.exs-css-dropdown input:focus ~ div{
+	display: block;
+}
+
+.exs-css-dropdown div{
+	display: none;
+	position: absolute;
+	padding: .75em;
+	background-color: var(--colorLight);
+	box-shadow: 0 0 8px 8px rgba(127, 127, 127, .08);
+}
+
+.exs-css-dropdown:focus-within div{
+	display: block;
+}
+
+.exs-css-dropdown .icon-inline{
+	align-items: center;
+	line-height: 1;
+}
+
+.exs-css-dropdown .svg-icon svg{
+	max-width: 1.3em;
+	max-height: 1.3em;
+	vertical-align: middle;
+}
+
+.exs-share-type-dropdown-color-icons a .svg-icon + span,
+.exs-share-type-color-icons a .svg-icon + span,
+.exs-share-type-dropdown-badges-icons a .svg-icon + span,
+.exs-share-type-badges-icons a .svg-icon + span,
+.exs-share-type-dropdown-icons a .svg-icon + span,
+.exs-share-type-icons a .svg-icon + span{
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.exs-share-type-dropdown-color-labels a .svg-icon,
+.exs-share-type-color-labels a .svg-icon,
+.exs-share-type-dropdown-badges-labels a .svg-icon,
+.exs-share-type-badges-labels a .svg-icon,
+.exs-share-type-dropdown-labels a .svg-icon,
+.exs-share-type-labels a .svg-icon{
+	display: none;
+}
+
+.exs-share[class*=badges] a{
+	background-color: var(--colorMain);
+	color: #fff;
+	display: inline-block;
+	margin: 0 1px 4px 0;
+	padding: 8px 10px;
+}
+
+.exs-share[class*=badges] a .icon-inline .svg-icon svg{
+	fill: #fff;
+	color: #fff;
+}
+
+.btns-rounded .exs-share[class*=badges] a{
+	border-radius: 6px;
+}
+
+.btns-round .exs-share[class*=badges] a{
+	border-radius: 60px;
+}
+
+.exs-share[class*=badges] .share-facebook{
+	background: var(--c-facebook);
+}
+
+.exs-share[class*=badges] .share-twitter{
+	background: var(--c-twitter);
+}
+
+.exs-share[class*=badges] .share-pinterest{
+	background: var(--c-pinterest);
+}
+
+.exs-share[class*=badges] .share-linkedin{
+	background: var(--c-linkedin);
+}
+
+.exs-share[class*=badges] .share-buffer{
+	background: var(--c-buffer);
+}
+
+.exs-share[class*=badges] .share-tumblr{
+	background: var(--c-tumblr);
+}
+
+.exs-share[class*=badges] .share-reddit{
+	background: var(--c-reddit);
+}
+
+.exs-share[class*=badges] .share-evernote{
+	background: var(--c-evernote);
+}
+
+.exs-share[class*=badges] .share-delicious{
+	background: var(--c-delicious);
+}
+
+.exs-share[class*=badges] .share-stumbleupon{
+	background: var(--c-stumbleupon);
+}
+
+.exs-share[class*=badges] .share-telegram{
+	background: var(--c-telegram);
+}
+
+.exs-share-type-dropdown-badges-icons .icon-inline .svg-icon,
+.exs-share-type-badges-icons .icon-inline .svg-icon{
+	margin-right: 0;
+}
+
+.exs-share[class*=color] .share-facebook{
+	color: var(--c-facebook);
+}
+
+.exs-share[class*=color] .share-twitter{
+	color: var(--c-twitter);
+}
+
+.exs-share[class*=color] .share-pinterest{
+	color: var(--c-pinterest);
+}
+
+.exs-share[class*=color] .share-linkedin{
+	color: var(--c-linkedin);
+}
+
+.exs-share[class*=color] .share-buffer{
+	color: var(--c-buffer);
+}
+
+.exs-share[class*=color] .share-tumblr{
+	color: var(--c-tumblr);
+}
+
+.exs-share[class*=color] .share-reddit{
+	color: var(--c-reddit);
+}
+
+.exs-share[class*=color] .share-evernote{
+	color: var(--c-evernote);
+}
+
+.exs-share[class*=color] .share-delicious{
+	color: var(--c-delicious);
+}
+
+.exs-share[class*=color] .share-stumbleupon{
+	color: var(--c-stumbleupon);
+}
+
+.exs-share[class*=color] .share-telegram{
+	color: var(--c-telegram);
+}
+
+.exs-share[class*=color] .icon-inline .svg-icon svg{
+	color: currentColor;
+	fill: currentColor;
+}

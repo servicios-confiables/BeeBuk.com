@@ -1,0 +1,1304 @@
+<!doctype html>
+<html lang="en-US" class="no-js-disabled">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="profile" href="https://gmpg.org/xfn/11"/>
+					<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+			
+	<!-- This site is optimized with the Yoast SEO plugin v14.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found - ExS - Extra Small WordPress Shop Demo</title>
+	<meta name="robots" content="noindex, follow" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - ExS - Extra Small WordPress Shop Demo" />
+	<meta property="og:site_name" content="ExS - Extra Small WordPress Shop Demo" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://demo.exsthemewp.com/shop/#website","url":"https://demo.exsthemewp.com/shop/","name":"ExS - Extra Small WordPress Shop Demo","description":"Just another WordPress site","potentialAction":[{"@type":"SearchAction","target":"https://demo.exsthemewp.com/shop/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="ExS - Extra Small WordPress Shop Demo &raquo; Feed" href="https://demo.exsthemewp.com/shop/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ExS - Extra Small WordPress Shop Demo &raquo; Comments Feed" href="https://demo.exsthemewp.com/shop/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://demo.exsthemewp.com/shop/wp-includes/css/dist/block-library/style.min.css?ver=5.4.10' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=2.7.3' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.7.3' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=3.0.11' media='all' />
+<style id='yith-wcwl-main-inline-css'>
+.yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.3.6' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.3.6' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.3.6' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='yith-quick-view-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-quick-view/assets/css/yith-quick-view.css?ver=1.4.2' media='all' />
+<style id='yith-quick-view-inline-css'>
+
+				#yith-quick-view-modal .yith-wcqv-main{background:#ffffff;}
+				#yith-quick-view-close{color:#cdcdcd;}
+				#yith-quick-view-close:hover{color:#ff0000;}
+</style>
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='//demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=5.4.10' media='all' />
+<link rel='stylesheet' id='exs-style-css'  href='https://demo.exsthemewp.com/shop/wp-content/themes/exs/assets/css/min/style.css?ver=0.0.1' media='all' />
+<style id='exs-style-inline-css'>
+:root{--colorLight:#ffffff;--colorFont:#555555;--colorFontMuted:#666666;--colorBackground:#f7f7f7;--colorBorder:#e1e1e1;--colorDark:#444444;--colorDarkMuted:#222222;--colorMain:#a17de8;--colorMain2:#8a8dff;}
+</style>
+<link rel='stylesheet' id='exs-shop-style-css'  href='https://demo.exsthemewp.com/shop/wp-content/themes/exs/assets/css/min/shop.css?ver=0.0.1' media='all' />
+<script>
+var exsDemo = {"theme_assets_uri":"https:\/\/demo.exsthemewp.com\/shop\/wp-content\/themes\/exs\/assets\/css\/","site_url":"https:\/\/demo.exsthemewp.com\/shop"};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/script.js?ver=0.0.1'></script>
+<link rel='https://api.w.org/' href='https://demo.exsthemewp.com/shop/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.exsthemewp.com/shop/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo.exsthemewp.com/shop/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.10" />
+<meta name="generator" content="WooCommerce 4.3.6" />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161721875-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-161721875-1');
+		</script>
+
+		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+<body data-rsssl=1 id="body" class="error404 theme-exs woocommerce-no-js hfeed with-sidebar container-1140 woo" itemtype="https://schema.org/Blog" itemscope="itemscope"
+	>
+<div id="search_dropdown">
+	<form autocomplete="off" role="search" method="get" class="search-form" action="https://demo.exsthemewp.com/shop/">
+
+	<input
+		type="search"
+		id="search-form-62e4c5ae6c08e"
+		class="search-field"
+		placeholder="Search"
+		value=""
+		name="s"
+	/>
+	<button type="submit" class="search-submit"><span class="svg-icon icon-magnify"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+</svg>
+</span>		<span class="screen-reader-text">Search</span>
+	</button>
+
+	<label for="search-form-62e4c5ae6c08e" class="screen-reader-text">
+		Search for:	</label>
+
+</form><!-- .search-form -->
+</div><!-- #search_dropdown -->
+<button
+	id="search_modal_close"
+	class="nav-btn"
+	aria-controls="search_dropdown"
+	aria-expanded="true"
+	aria-label="Search Toggler"
+>
+	<span></span>
+</button>
+<div id="box" class="box-normal">
+	<div id="header-affix-wrap" class="header-wrap l  ">
+		<header id="header"
+			class="header header-1 l  menu-right scrolltop-sticky    has-menu">
+						<div class="container-fluid">
+			<a class="logo logo-left no-image  " href="https://demo.exsthemewp.com/shop/" rel="home" itemprop="url">
+			<span class="logo-text">
+							<span class="logo-text-primary">
+				<span class="has-large-font-size">ExS<strong class="has-main-color">.</strong></span>			</span><!-- .logo-text-primary -->
+								</span><!-- .logo-text -->
+	</a><!-- .logo -->
+			<div id="overlay"></div>
+							<nav id="nav_top" class="top-nav" aria-label="Top Menu">
+					<ul id="menu-main-menu" class="top-menu menu-low-items"><li id="menu-item-1168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-1168"><a href="https://demo.exsthemewp.com/shop/" data-hover="Shop">Shop</a>
+<ul class="sub-menu">
+	<li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167"><a href="https://demo.exsthemewp.com/shop/cart/" data-hover="Cart">Cart</a></li>
+	<li id="menu-item-1166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1166"><a href="https://demo.exsthemewp.com/shop/checkout/" data-hover="Checkout">Checkout</a></li>
+	<li id="menu-item-1165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1165"><a href="https://demo.exsthemewp.com/shop/my-account/" data-hover="My account">My account</a></li>
+</ul>
+</li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-115"><a href="https://demo.exsthemewp.com/shop/about/" data-hover="About">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="https://demo.exsthemewp.com/shop/about/privacy-policy/" data-hover="Privacy Policy">Privacy Policy</a></li>
+	<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://demo.exsthemewp.com/shop/about/terms-of-use/" data-hover="Terms of Use">Terms of Use</a></li>
+</ul>
+</li>
+<li id="menu-item-1070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1070"><a href="https://demo.exsthemewp.com/shop/blocks/" data-hover="Blocks">Blocks</a></li>
+<li id="menu-item-371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-371"><a href="#" data-hover="Features">Features</a>
+<ul class="sub-menu">
+	<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://demo.exsthemewp.com/shop/home/" data-hover="Home Static">Home Static</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="https://demo.exsthemewp.com/shop/coming-soon/" data-hover="Coming Soon">Coming Soon</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-588"><a href="https://demo.exs-wordpress-theme.com/business/404" data-hover="404">404</a></li>
+</ul>
+</li>
+<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-157"><a href="https://demo.exsthemewp.com/shop/blog/" data-hover="Blog">Blog</a></li>
+<li id="menu-item-596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-596"><a href="https://demo.exsthemewp.com/shop/contact-us/" data-hover="Contacts">Contacts</a></li>
+</ul>						<button id="nav_close" class="nav-btn"
+								aria-controls="nav_top"
+								aria-expanded="true"
+								aria-label="Top Menu Close"
+						>
+							<span></span>
+						</button>
+										</nav><!-- .top-nav -->
+						<div class="header-search">
+			<button id="search_toggle"
+					aria-controls="search_dropdown"
+					aria-expanded="false"
+					aria-label="Search Dropdown Toggler"
+			>
+				<span class="svg-icon icon-magnify"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+</svg>
+</span>			</button>
+		</div><!-- .header-search -->
+						<button id="nav_toggle" class="nav-btn"
+						aria-controls="nav_top"
+						aria-expanded="false"
+						aria-label="Top Menu Toggler"
+				>
+					<span></span>
+				</button>
+					</div><!-- .container -->
+			</header><!-- #header -->
+	</div><!--#header-affix-wrap-->
+<section id="title" class="title title-1    width-inherit"
+	>
+		<div class="container pt-3 ">
+					<h1 itemprop="headline">404</h1>
+			<nav class="breadcrumbs"><span><span><a href="https://demo.exsthemewp.com/shop/">Home</a> / <span class="breadcrumb_last" aria-current="page">Error 404: Page not found</span></span></span></nav>	</div><!-- .container -->
+	</section><!-- #title -->
+	<div id="main" class="main section-404 container-720">
+		<div class="container pt-5 pb-5">
+			<main>
+				<div id="layout" class="text-center">
+					<h2 class="not_found mb-0 animate an__fadeInDown">
+						<span class="has-huge-font-size">404</span>
+					</h2>
+
+					<h5 class=" animate an__fadeInDown">
+						Oops, page not found!					</h5>
+
+					<p class="animate an__fadeInLeft">
+						You can search what interested:					</p>
+
+					<div class="widget widget_search mb-1 animate an__fadeInLeft">
+						<form autocomplete="off" role="search" method="get" class="search-form" action="https://demo.exsthemewp.com/shop/">
+
+	<input
+		type="search"
+		id="search-form-62e4c5ae709d2"
+		class="search-field"
+		placeholder="Search"
+		value=""
+		name="s"
+	/>
+	<button type="submit" class="search-submit"><span class="svg-icon icon-magnify"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"/>
+</svg>
+</span>		<span class="screen-reader-text">Search</span>
+	</button>
+
+	<label for="search-form-62e4c5ae709d2" class="screen-reader-text">
+		Search for:	</label>
+
+</form><!-- .search-form -->
+					</div>
+
+					<p class="mb-1 animate an__fadeInUp">
+						Or					</p>
+
+					<p class="mb-0 animate an__fadeInUp">
+						<a href="https://demo.exsthemewp.com/shop/" class="btn">
+							Go To Home						</a>
+					</p>
+
+				</div><!-- #layout -->
+			</main>
+		</div><!-- .container -->
+	</div><!-- #main -->
+<footer id="footer"
+		class="footer footer-6 text-center  fs-14 "
+	>
+		<div class="container pt-3 ">
+				<div class="layout-cols-1 layout-gap-">
+			<aside class="footer-widgets one-half-only">
+				<div id="theme-meta-1" class="grid-item widget widget_theme_meta"><div class="widget-theme-meta-default  text-center">	<div class="theme-meta">
+			</div><!-- .theme-meta -->
+		<span class="social-links"><a href="#" class="social-icon social-icon-facebook"><span class="svg-icon icon-facebook"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z"/>
+</svg>
+</span></a><a href="#" class="social-icon social-icon-twitter"><span class="svg-icon icon-twitter"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"/>
+</svg>
+</span></a><a href="#" class="social-icon social-icon-youtube"><span class="svg-icon icon-youtube"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z"/>
+</svg>
+</span></a><a href="#" class="social-icon social-icon-instagram"><span class="svg-icon icon-instagram"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<path
+		d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"/>
+</svg>
+</span></a></span><!--.social-links-->	</div><!-- .widget-theme-meta-default -->
+</div>			</aside><!-- .footer-widgets> -->
+		</div>
+			</div><!-- .container -->
+	</footer><!-- #footer -->
+<div id="copyright" class="copyright  fs-14 "
+	>
+	<div class="container-fluid  pb-3">
+		<div class="copyright-text text-center">
+			© <span class="copyright-year">2022</span> | Powered by ExS theme		</div>
+	</div><!-- .container -->
+</div><!-- #copyright -->
+</div><!-- #box -->
+	<a id="to-top" href="#body">
+		<span class="screen-reader-text">
+			Go to top		</span>
+	</a>
+	
+<div id="yith-quick-view-modal">
+	<div class="yith-quick-view-overlay"></div>
+	<div class="yith-wcqv-wrapper">
+		<div class="yith-wcqv-main">
+			<div class="yith-wcqv-head">
+				<a href="#" id="yith-quick-view-close" class="yith-wcqv-close">X</a>
+			</div>
+			<div id="yith-quick-view-content" class="woocommerce single-product"></div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<link rel='stylesheet' id='photoswipe-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=4.3.6' media='all' />
+<link rel='stylesheet' id='photoswipe-default-skin-css'  href='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=4.3.6' media='all' />
+<script src='https://demo.exsthemewp.com/shop/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
+<script>
+var yith_wcwl_l10n = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/demo.exsthemewp.com\/shop\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"}};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js?ver=3.0.11'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script>
+var wc_add_to_cart_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/demo.exsthemewp.com\/shop\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.3.6'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script>
+var woocommerce_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%"};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.3.6'></script>
+<script>
+var wc_cart_fragments_params = {"ajax_url":"\/shop\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_c440936a5b1c6a0190fd4b13105c1c12","fragment_name":"wc_fragments_c440936a5b1c6a0190fd4b13105c1c12","request_timeout":"5000"};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.3.6'></script>
+<script>
+var yith_qv = {"ajaxurl":"\/shop\/wp-admin\/admin-ajax.php","loader":"https:\/\/demo.exsthemewp.com\/shop\/wp-content\/plugins\/yith-woocommerce-quick-view\/assets\/image\/qv-loader.gif","lang":""};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/yith-woocommerce-quick-view/assets/js/frontend.min.js?ver=1.4.2'></script>
+<script src='//demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/themes/exs/assets/js/min/init.js?ver=0.0.1'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/vanilla-picker.min.js?ver=0.0.1'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-includes/js/wp-embed.min.js?ver=5.4.10'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script>
+var _wpUtilSettings = {"ajax":{"url":"\/shop\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-includes/js/wp-util.min.js?ver=5.4.10'></script>
+<script>
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/shop\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=4.3.6'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1'></script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1'></script>
+<script>
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+</script>
+<script src='https://demo.exsthemewp.com/shop/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=4.3.6'></script>
+<style>
+	@-webkit-keyframes demo-pulse{0%{opacity:.3}20%{box-shadow:0 0 0 10px var(--colorMain);opacity:0}100%{box-shadow:0 0 0 0 rgba(255,255,255,0.1);opacity:0}}@keyframes demo-pulse{0%{opacity:.3}20%{box-shadow:0 0 0 10px var(--colorMain);opacity:0}100%{box-shadow:0 0 0 0 rgba(255,255,255,0.1);opacity:0}}#exs-demo-panel{font-family:Verdana,Arial,san-serif;letter-spacing:0;position:fixed;z-index:1000;right:0;top:30%;background:#fff;color:#777;padding:0px 5px 5px;box-shadow:0 0 20px 0 rgba(100,100,100,0.15);text-transform:uppercase;text-align:center;font-size:11px;border-radius:4px;margin:0 !important}#exs-demo-panel:before{content:'';position:absolute;z-index:999;opacity:0;top:0;left:0;right:0;bottom:0;box-shadow:0 0 0 0 var(--colorMain);border-radius:1px;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;-webkit-animation:demo-pulse 5s infinite 5s;animation:demo-pulse 5s infinite 5s}#exs-demo-panel>*{position:relative;z-index:1001}.exs-demo-btn{cursor:pointer;border:1px solid #ddd;font-size:11px;text-transform:uppercase;padding:2px 5px;border-radius:3px}#exs-demo-modal{-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;pointer-events:none;opacity:0;visibility:hidden;z-index:-9;position:fixed;width:94vw;height:90vh;margin:0 !important;top:2vh;left:3vw;border-radius:3px;overflow:hidden}#exs-demo-modal-overlay{-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;z-index:-10;content:'';visibility:hidden;opacity:0;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);margin:0 !important}#exs-demo-modal.exs-active{top:5vh;pointer-events:initial;z-index:10000;visibility:visible;opacity:1}#exs-demo-modal.exs-active+#exs-demo-modal-overlay{z-index:9999;opacity:1;visibility:visible}#exs-demo-modal-container{z-index:10001;background-color:#fff;position:relative;display:-webkit-box;display:flex;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;-webkit-box-pack:justify;justify-content:space-between}.exs-modal-header,.exs-modal-footer{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:justify;justify-content:space-between;padding:15px 15px;border-bottom:1px solid var(--colorBorder);background:var(--colorBackground)}.exs-modal-body{padding:15px;overflow:auto;background-color:var(--colorLight)}.exs-modal-footer{margin-top:auto;text-align:center;border-bottom:none;border-top:1px solid var(--colorBorder)}.exs-modal-header h3{margin:0}.exs-preset-previews-heading{padding-bottom:15px;margin:15px 0;border-bottom:1px solid var(--colorBorder)}.exs-preset-previews{padding:15px 0;text-align:center;display:grid;grid-gap:30px;grid-template-columns:1fr 1fr 1fr 1fr}@media (max-width: 992px){.exs-preset-previews{grid-template-columns:1fr 1fr}}@media (max-width: 500px){.exs-preset-previews{grid-template-columns:1fr}}.exs-preset-preview [type='radio']{visibility:hidden;display:none}.exs-demo-preset-wrapper{-webkit-transition:border .3s ease;transition:border .3s ease;border:3px solid transparent;display:block}.exs-demo-preset-wrapper:hover{border:3px solid var(--colorMain)}[type='radio']:checked+.exs-demo-preset-wrapper{border:3px solid var(--colorMain)}#exs-demo-animate{line-height:11px;font-size:11px;position:relative;width:58px;overflow:hidden}#exs-demo-animate input{display:none}.exs-fancy-checkbox{opacity:1;content:'';position:relative;display:block;margin:5px auto 0;background:#eaeaea;width:32px;height:16px;border-radius:10px;border:2px solid #eaeaea;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}input:checked+.exs-fancy-checkbox{background-color:#fff;border-color:var(--colorMain)}.exs-fancy-checkbox:before{position:absolute;content:'';width:10px;height:10px;border-radius:50%;background-color:#fff;top:1px;left:1px;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}input:checked+.exs-fancy-checkbox:before{background-color:var(--colorMain);left:16px}.footer-1 #theme-meta-2 .widget-title,.footer-2 #theme-meta-2 .widget-title,.footer-6 #theme-meta-2 .widget-title{display:none}#footer .widget ul ul{display:none}#footer .posts-list li:nth-child(4),#footer .posts-list li:nth-child(5){display:none}.footer-3 #theme-meta-2 .wp-block-image{display:none}
+</style>
+	
+<div id="exs-demo-panel">
+	<div id="exs-demo-presets-modal">
+		<div id="exs-demo-presets-modal-button" style="cursor:pointer;border:2px solid var(--colorMain);border-radius:3px;color:var(--colorMain);font-size: 11px;margin-top:5px;padding:0 2px;">Presets</div>
+	</div>
+
+		<div id="exs-demo-skins" style="margin-top: 10px;">
+		<label style="font-size: 11px">
+			Skin:<br>
+			<select name="exs-demo-skin-select" id="exs-demo-skin-select" style="max-width: 3em;height: 30px; line-height: 30px; min-height: 30px;padding:.1em;border-color:#ccc;">
+				<option value="">-</option>
+				<option value="1">1 - Content panel</option>
+				<option value="2">2 - Content and sidebar panels</option>
+				<option value="3">3 - Content and sidebar widget panels</option>
+				<option value="4">4 - Boxed layout</option>
+				<option value="5">5 - Muted sidebar</option>
+				<option value="6">6 - Material design</option>
+			</select>
+		</label>
+	</div>
+	<div id="exs-demo-colors">
+				<div style="margin-top:10px;">Color:</div>
+		<div class="exs-demo-color-selector" id="colorMain" title="colorMain" style="background: var(--colorMain);width: 20px;height: 20px;margin: 0 auto;border-radius: 50%;cursor:pointer;"></div>
+
+	</div>
+	<div id="exs-demo-animate" style="margin-top: 15px;">
+		<label style="font-size: 11px">
+			Animate
+			<input type="checkbox" id="exs-demo-animate-toggle" >
+			<span class="exs-fancy-checkbox"></span>
+		</label>
+	</div>
+		<div id="exs-demo-reset" style="margin-top: 15px;border:1px solid #ddd;border-radius:3px;cursor:pointer;padding:0 3px">
+		Reset
+	</div>
+</div><!-- #exs-demo-panel -->
+<div id="exs-demo-modal">
+	<div id="exs-demo-modal-container">
+
+		<div class="exs-modal-header">
+			<h3>
+				Select your preset			</h3>
+			<div id="exs-modal-close-top" class="exs-modal-close exs-demo-btn">
+				Close			</div>
+		</div>
+
+		<div class="exs-modal-body">
+
+								<blockquote class="fs-15">
+						<strong>Hey!</strong> These presets are only some <strong>examples of unlimited layouts</strong> that you can edit and combine in your WordPress Customizer.
+					</blockquote>
+												<h4 class="exs-preset-previews-heading">
+							Shop Layouts						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="shop-1"
+												data-preset="shop-1"
+												data-location="/">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/shop-1.jpg"
+												alt="No sidebar, full width outline &quot;Buy Now&quot; buttons">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												No sidebar, full width outline &quot;Buy Now&quot; buttons											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="shop-2"
+												data-preset="shop-2"
+												data-location="/">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/shop-2.jpg"
+												alt="Left sidebar 2 columns with categories and reviews">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Left sidebar 2 columns with categories and reviews											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="shop-3"
+												data-preset="shop-3"
+												data-location="/">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/shop-3.jpg"
+												alt="Right sidebar 3 columns with extra description">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Right sidebar 3 columns with extra description											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="shop-4"
+												data-preset="shop-4"
+												data-location="/">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/shop-4.jpg"
+												alt="Hidden &quot;Add to Cart&quot; button (as catalog)">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Hidden &quot;Add to Cart&quot; button (as catalog)											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Blog Layouts						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-1"
+												data-preset="blog-1"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-1.jpg"
+												alt="No sidebar, wide featured image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												No sidebar, wide featured image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-2"
+												data-preset="blog-2"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-2.jpg"
+												alt="No sidebar, narrow, top meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												No sidebar, narrow, top meta											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-3"
+												data-preset="blog-3"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-3.jpg"
+												alt="Left sidebar, left meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Left sidebar, left meta											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-4"
+												data-preset="blog-4"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-4.jpg"
+												alt="Meta over featured image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Meta over featured image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-5"
+												data-preset="blog-5"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-5.jpg"
+												alt="Side featured image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Side featured image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-6"
+												data-preset="blog-6"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-6.jpg"
+												alt="Columns with small featured image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Columns with small featured image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-7"
+												data-preset="blog-7"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-7.jpg"
+												alt="Only post titles">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Only post titles											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-8"
+												data-preset="blog-8"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-8.jpg"
+												alt="Only post titles and meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Only post titles and meta											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-9"
+												data-preset="blog-9"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-9.jpg"
+												alt="Columns">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Columns											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-10"
+												data-preset="blog-10"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-10.jpg"
+												alt="Columns with meta overlap">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Columns with meta overlap											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-11"
+												data-preset="blog-11"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-11.jpg"
+												alt="Columns without meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Columns without meta											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="blog-12"
+												data-preset="blog-12"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/blog-12.jpg"
+												alt="Columns with excerpt without meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Columns with excerpt without meta											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Single Posts						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="post-1"
+												data-preset="post-1"
+												data-location="20191214phasellus-rutrum-egestas-neque-fusce">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/post-1.jpg"
+												alt="Wide with top thumbnail">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Wide with top thumbnail											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="post-2"
+												data-preset="post-2"
+												data-location="20191214phasellus-rutrum-egestas-neque-fusce">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/post-2.jpg"
+												alt="Left sidebar with top meta">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Left sidebar with top meta											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="post-3"
+												data-preset="post-3"
+												data-location="20191214phasellus-rutrum-egestas-neque-fusce">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/post-3.jpg"
+												alt="Right sidebar with meta over image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Right sidebar with meta over image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="post-4"
+												data-preset="post-4"
+												data-location="20191214phasellus-rutrum-egestas-neque-fusce">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/post-4.jpg"
+												alt="Title section image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Title section image											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Headers						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-1"
+												data-preset="header-1"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-1.jpg"
+												alt="Header fluid not sticky">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header fluid not sticky											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-2"
+												data-preset="header-2"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-2.jpg"
+												alt="Header boxed always sticky">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header boxed always sticky											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-3"
+												data-preset="header-3"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-3.jpg"
+												alt="Header scrolling top sticky with action button">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header scrolling top sticky with action button											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-4"
+												data-preset="header-4"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-4.jpg"
+												alt="Header with top info and border">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header with top info and border											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-5"
+												data-preset="header-5"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-5.jpg"
+												alt="Dark header with top menu">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Dark header with top menu											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-6"
+												data-preset="header-6"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-6.jpg"
+												alt="Left aligned menu">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Left aligned menu											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-7"
+												data-preset="header-7"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-7.jpg"
+												alt="Center aligned menu with top menu">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Center aligned menu with top menu											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-8"
+												data-preset="header-8"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-8.jpg"
+												alt="Header type 2">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header type 2											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-9"
+												data-preset="header-9"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-9.jpg"
+												alt="Header type 3">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header type 3											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-10"
+												data-preset="header-10"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-10.jpg"
+												alt="Basic side nav">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Basic side nav											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-11"
+												data-preset="header-11"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-11.jpg"
+												alt="Side nav without header">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Side nav without header											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="header-12"
+												data-preset="header-12"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/header-12.jpg"
+												alt="Side nav with header overlap">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Side nav with header overlap											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Title Sections						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="title-1"
+												data-preset="title-1"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/title-1.jpg"
+												alt="Header and title with header image">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Header and title with header image											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="title-2"
+												data-preset="title-2"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/title-2.jpg"
+												alt="Title with search centered">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Title with search centered											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="title-3"
+												data-preset="title-3"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/title-3.jpg"
+												alt="Title with background and inline breadcrumbs">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Title with background and inline breadcrumbs											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="title-4"
+												data-preset="title-4"
+												data-location="blog">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/title-4.jpg"
+												alt="Only breadcrumbs with dark background">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Only breadcrumbs with dark background											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Footers						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="footer-1"
+												data-preset="footer-1"
+												data-location="#footer">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/footer-1.jpg"
+												alt="Equal columns with left copyright">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Equal columns with left copyright											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="footer-2"
+												data-preset="footer-2"
+												data-location="#footer">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/footer-2.jpg"
+												alt="One half first column with left copyright">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												One half first column with left copyright											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="footer-3"
+												data-preset="footer-3"
+												data-location="#footer">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/footer-3.jpg"
+												alt="Dark one half second column with left copyright">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Dark one half second column with left copyright											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="footer-4"
+												data-preset="footer-4"
+												data-location="#footer">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/footer-4.jpg"
+												alt="Narrow  1 column centered footer with centered copyright">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Narrow  1 column centered footer with centered copyright											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+											<h4 class="exs-preset-previews-heading">
+							Preloaders						</h4>
+						<div class="exs-preset-previews">
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="preloader-1"
+												data-preset="preloader-1"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/preloader-1.jpg"
+												alt="Fade in content">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Fade in content											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="preloader-2"
+												data-preset="preloader-2"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/preloader-2.jpg"
+												alt="Cover preloader">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Cover preloader											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="preloader-3"
+												data-preset="preloader-3"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/preloader-3.jpg"
+												alt="Top right corner preloader">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Top right corner preloader											</span>
+										</span>
+									</label>
+								</div>
+
+							
+								<div class="exs-preset-preview">
+									<label style="display:block;text-align: center;">
+										<input type="radio"
+												name="exs-demo-selected-preset" 												onchange="exsDemoPresetChange(this)" value="preloader-4"
+												data-preset="preloader-4"
+												data-location="">
+										<span class="exs-demo-preset-wrapper">
+											<img src="https://demo.exsthemewp.com/shop/wp-content/plugins/exs-demo/presets/shop/img/preloader-4.jpg"
+												alt="Top right corner preloader with fade in content">
+											<span class="exs-preset-title" style="display: block; margin: 10px;">
+												Top right corner preloader with fade in content											</span>
+										</span>
+									</label>
+								</div>
+
+													</div>
+										
+		</div>
+
+		<div class="exs-modal-footer">
+			<div id="exs-modal-reset" class="exs-demo-btn">
+				Reset			</div>
+			<div id="exs-modal-close-bottom" class="exs-modal-close exs-demo-btn">
+				Close			</div>
+		</div>
+
+	</div>
+</div>
+<div id="exs-demo-modal-overlay"></div>
+<script>
+	'use strict';
+	(function() {
+			function g(id){
+				return document.getElementById(id);
+			}
+			function activateDemoModal(modal) {
+				modal.classList.add('exs-active');
+				document.body.classList.add('exs-demo-modal-active');
+			}
+			function deactivateDemoModal() {
+				modal.classList.remove('exs-active');
+				document.body.classList.remove('exs-demo-modal-active');
+			}
+			function resetDemo() {
+				setCookie('exs_skin_val','',true);
+				setCookie('exs_preset','',true);
+				setCookie('exs_animate','',true);
+				setCookie('exs_demo_message_top','',true);
+				setCookie('exs_demo_message_bottom','',true);
+				localStorage.clear();
+				location.reload();
+			}
+			function setCookie(name,value,expires) {
+				var d = new Date();
+				d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+				if(expires){
+					var expires = "expires=Thu, 01 Jan 1970 00:00:01 UTC";
+				}else {
+					expires = "expires=" + d.toUTCString();
+				}
+				var cookie=name + "=" + value + ";" + expires + ";path=/";
+				document.cookie = cookie;
+			}
+			window.exsDemoPresetChange=function (radio) {
+				var val=radio.value;
+				var url=radio.getAttribute('data-location');
+				setCookie('exs_preset',val,false);
+				if(url){
+					//first letter in URL is hash
+					if(0===url.indexOf('#',0)){
+						location.href=location.origin+location.pathname+url;
+						location.reload();
+					}else if ('/'===url){
+						window.location.href=exsDemo.site_url;
+					} else {
+						window.location.href=exsDemo.site_url+'/'+url;
+					}
+				}else{
+					location.reload();
+				}
+			}
+			//event listeners
+			var modal=g('exs-demo-modal');
+			g('exs-demo-presets-modal-button').addEventListener('click', function(e){
+				activateDemoModal(modal);
+			});
+			g('exs-modal-close-top').addEventListener('click', function(e){
+				deactivateDemoModal(modal);
+			});
+			g('exs-modal-close-bottom').addEventListener('click', function(e){
+				deactivateDemoModal(modal);
+			});
+			g('exs-demo-modal-overlay').addEventListener('click', function(e){
+				deactivateDemoModal(modal);
+			});
+						//defaults
+			var defaults = {
+				colorMain: '#a17de8',
+				skin: ''			}
+			//skin
+			//even if skinLink does not exists - it's created in our script.js that is loaded in header
+			var skinLink = g('exs-skin-css');
+			var themeUrl='https://demo.exsthemewp.com/shop/wp-content/themes/exs/assets/css/';
+			var skinSelect = g('exs-demo-skin-select');
+
+			if(skinSelect){
+				if( typeof exsDemo.getSkin !== 'undefined'){
+					skinSelect.value=exsDemo.getSkin;
+				}else if(typeof localStorage['exs_skin_val'] !== 'undefined') {
+					skinSelect.value=localStorage['exs_skin_val'];
+				} else {
+					if(defaults.skin){
+						skinSelect.value=defaults.skin;
+					}
+				}
+				skinSelect.addEventListener('change',function () {
+					var val=skinSelect.value;
+					var styleUrl=(val)?themeUrl+'min/skin'+val+'.css':'';
+					setCookie('exs_skin_val',val,false);
+					// skinLink.href=styleUrl;
+					localStorage['exs_skin_val']=val;
+					localStorage['exs_skin_url']=styleUrl;
+					location.reload();
+				});
+			}
+			//colors
+			var demoColorParents=document.querySelectorAll('.exs-demo-color-selector');
+			demoColorParents.forEach(function (el) {
+				var picker = new Picker({
+					parent: el,
+					popup: 'left',
+					alpha: false,
+					onChange: function (color) {
+						document.documentElement.style.setProperty('--'+el.id, color.hex);
+					},
+					onClose: function (color) {
+						localStorage['exs_'+el.id]=color.hex;
+					},
+				});
+			});
+			//animate
+			var animateCheckbox = g('exs-demo-animate-toggle');
+			animateCheckbox.addEventListener('change',function () {
+				console.log('change', animateCheckbox.checked);
+				if(animateCheckbox.checked){
+					setCookie('exs_animate','1',false);
+				} else {
+					setCookie('exs_animate','',true);
+				}
+				location.reload();
+			});
+			//reset
+			g('exs-demo-reset').addEventListener('click',function () {
+				resetDemo();
+			});
+			g('exs-modal-reset').addEventListener('click',function () {
+				resetDemo();
+			});
+		}
+	)();
+</script>
+</body>
+</html>

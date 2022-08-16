@@ -1,0 +1,141 @@
+/*skin 2*/
+body{
+	background-color: var(--colorBackground);
+}
+
+#layout,
+.widgets-wrap,
+.sidebar-home,
+.column-main > .woo{
+	background-color: var(--colorLight);
+	padding: 50px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.page-template-no-sidebar-no-title #layout{
+	padding-top: 1px;
+}
+
+.widgets-wrap{
+	padding: 1.75em;
+}
+
+#box .alignfull,
+.section{
+	margin-left: -50px;
+	margin-right: -50px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#box .alignfull{
+	left: auto;
+	right: auto;
+	width: auto;
+}
+
+#box .alignfull .alignfull{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media screen and (min-width: 1400px) {
+	.alignwide{
+		margin-left: -50px;
+		max-width: none;
+		width: calc(100% + 100px);
+	}
+}
+
+.single .post-thumbnail{
+	font-size: inherit;
+	margin-top: -50px;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-bottom: 1.5em;
+	max-width: calc(100% + 100px);
+}
+
+.single .layout-meta-side .post-thumbnail,
+.single .layout-meta-top .post-thumbnail{
+	margin-top: 0;
+}
+
+.single .layout-meta-image .post-thumbnail{
+	margin: 0;
+	line-height: 0;
+}
+
+.single .layout-meta-image .content-absolute{
+	margin-top: -50px;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-bottom: 1.5em;
+	max-width: calc(100% + 100px);
+}
+
+@media (max-width: 600px) {
+	#layout,
+	.widgets-wrap,
+	.column-main > .woo{
+		background-color: var(--colorLight);
+		padding: 20px;
+	}
+
+	.widgets-wrap{
+		padding: 10px;
+	}
+
+	.single .post-thumbnail{
+		margin-top: -20px;
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 0;
+		max-width: calc(100% + 40px);
+	}
+
+	.alignfull,
+	.section{
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.header-overlap-main #layout{
+	padding-top: 0;
+}
+
+.header-absolute-wrap{
+	margin: auto;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+
+.header-absolute-wrap .container,
+.header-absolute-wrap .container-fluid{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container-1400 .header-absolute-wrap{
+	max-width: 1400px;
+}
+
+.container-1140 .header-absolute-wrap{
+	max-width: 1140px;
+}
+
+.container-960 .header-absolute-wrap{
+	max-width: 960px;
+}
+
+.container-720 .header-absolute-wrap{
+	max-width: 720px;
+}
+
+.wp-block-cover__inner-container{
+	padding-left: 15px;
+	padding-right: 15px;
+}
