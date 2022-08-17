@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost:8888/plataforma-lectores/wordpress/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//beebuk.com/demo/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/post-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/post-sitemap.xml</loc>
 		<lastmod>2022-07-30T05:50:27+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/page-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/page-sitemap.xml</loc>
 		<lastmod>2022-08-16T19:08:56+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/product-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/product-sitemap.xml</loc>
 		<lastmod>2022-08-16T19:09:22+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/3d-flip-book-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/3d-flip-book-sitemap.xml</loc>
 		<lastmod>2022-04-30T08:15:28+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/category-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/category-sitemap.xml</loc>
 		<lastmod>2022-07-30T05:50:27+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/post_tag-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/post_tag-sitemap.xml</loc>
 		<lastmod>2022-07-30T05:50:27+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/product_cat-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/product_cat-sitemap.xml</loc>
 		<lastmod>2022-08-16T19:09:22+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/product_tag-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/product_tag-sitemap.xml</loc>
 		<lastmod>2022-08-16T19:09:22+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>http://localhost:8888/plataforma-lectores/wordpress/author-sitemap.xml</loc>
+		<loc>https://beebuk.com/demo/author-sitemap.xml</loc>
 		<lastmod>2022-08-11T04:11:08+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
