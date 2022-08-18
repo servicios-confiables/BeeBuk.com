@@ -133,7 +133,7 @@
 .yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
 </style>
 <link rel='stylesheet' id='ppv-public-css'  href='https://beebuk.com/demo/wp-content/plugins/document-emberdder/dist/public.css?ver=1.8.2' media='all' />
-<link rel='stylesheet' id='jquery-ui-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/css/jquery-ui.css?ver=1660807331' media='all' />
+<link rel='stylesheet' id='jquery-ui-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/css/jquery-ui.css?ver=1660841931' media='all' />
 <link rel='stylesheet' id='wcj-timepicker-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/lib/timepicker/jquery.timepicker.min.css?ver=5.6.2' media='all' />
 <link rel='stylesheet' id='woocommerce-layout-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=6.8.0' media='all' />
 <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=6.8.0' media='only screen and (max-width: 768px)' />
@@ -170,7 +170,13 @@
 <style id='exs-google-fonts-style-inline-css'>
 body,button,input,select,textarea{font-family:"Jost",sans-serif}
 </style>
+<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/document-emberdder/dist/public.js?ver=1.8.2' id='ppv-public-js'></script>
+<script id='wcj-cart-customization-js-extra'>
+var wcj_cart_customization = {"return_to_shop_button_text":"Regresar a Servicios"};
+</script>
+<script src='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/js/wcj-cart-customization.js?ver=5.6.2' id='wcj-cart-customization-js'></script>
 <link rel="https://api.w.org/" href="https://beebuk.com/demo/wp-json/" /><link rel="alternate" type="application/json" href="https://beebuk.com/demo/wp-json/wp/v2/categories/33" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://beebuk.com/demo/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.0.1" />
 <meta name="generator" content="WooCommerce 6.8.0" />
@@ -183,25 +189,88 @@ body.custom-background { background-color: #fefefe; }
 <link rel="apple-touch-icon" href="https://beebuk.com/demo/wp-content/uploads/2022/06/cropped-B-3-colores--180x180.png" />
 <meta name="msapplication-TileImage" content="https://beebuk.com/demo/wp-content/uploads/2022/06/cropped-B-3-colores--270x270.png" />
 		<style id="wp-custom-css">
-			#header {
+			/* =================== */
+/* Global */
+
+/* NOTE: This removes the background image, uses gradient for title. Shop page doesn't want to use custom image for some reason. This was this solution for this. */
+section.title {
+	background: linear-gradient(45deg, #043c5d, #06829b) !important;
+}
+
+/* =================== */
+/* Header */
+
+#header {
 	background-color: #f7f7f7 !important;
 }
 
-/* NOTE: Above header, has contact info and social medias.
- * Let's hide it for now!
- * 
- */
+/* NOTE: Above header, has contact info and social media. Let's hide it */
 #topline {
 	display: none;
 }
+
+/* =================== */
+/* Product page */
 
 /* NOTE: Fixes list categories thumbnail size in product page */
 .wc-block-product-categories-list-item__image img {
 	width: 50px;
 	height: 50px;
-}		</style>
+}
+
+/* =================== */
+/* My Account page */
+
+/* NOTE: Hides some Woocommerce stuff */
+.woocommerce-MyAccount-navigation-link--dashboard {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--products {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--wcj-my-products {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--edit-address {
+	display: none;
+}
+
+/* =================== */
+/* Wishlist page */
+
+/* NOTE: Styles products table */
+.shop_table thead {
+	display: none;
+}
+.product-stock-status {
+	display: none;
+}
+.product-name .yith-wcqv-button {
+	display: none;
+}
+.yith-wcwl-share-title {
+	visibility: hidden;
+}
+.yith-wcwl-share-title:after {
+  content: 'Compartir en:';
+  visibility: visible;
+  display: block;
+}
+
+/* =================== */
+/* Cart page */
+
+.cart-empty {
+visibility: hidden;
+}
+.cart-empty:after {
+  content: 'No se pudo encontrar ningún trabajo previo, o en algun trabajo en curso.';
+  visibility: visible;
+  display: block;
+}
+		</style>
 		</head>
-<body id="body" class="archive category category-reviews category-33 custom-background wp-custom-logo theme-exs-pro woocommerce-demo-store woocommerce-no-js hfeed with-sidebar btns-uppercase btns-bold meta-icons-main meta-text-dark-muted woo woocommerce header-sticky menu-bold menu-uppercase" itemtype="https://schema.org/Blog" itemscope="itemscope" data-nonce="2e9fb42a5a" data-ajax="https://beebuk.com/demo/wp-admin/admin-ajax.php"
+<body id="body" class="archive category category-reviews category-33 custom-background wp-custom-logo theme-exs-pro woocommerce-demo-store woocommerce-no-js hfeed with-sidebar btns-uppercase btns-bold meta-icons-main meta-text-dark-muted woo woocommerce header-sticky menu-bold menu-uppercase" itemtype="https://schema.org/Blog" itemscope="itemscope" data-nonce="3e66a10c30" data-ajax="https://beebuk.com/demo/wp-admin/admin-ajax.php"
 	>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><a id="skip_link" class="screen-reader-text skip-link" href="#main">Skip to content</a>
 	<!-- preloader -->
@@ -773,7 +842,7 @@ body.custom-background { background-color: #fefefe; }
 
 	<input
 		type="search"
-		id="search-form-62fde8a3888c9"
+		id="search-form-62fe6fcbdae6b"
 		class="search-field"
 		placeholder="Search"
 		value=""
@@ -786,7 +855,7 @@ body.custom-background { background-color: #fefefe; }
 </span>			<span class="screen-reader-text">Search</span>
 		</button>
 		
-	<label for="search-form-62fde8a3888c9" class="screen-reader-text">
+	<label for="search-form-62fe6fcbdae6b" class="screen-reader-text">
 		Search for:	</label>
 
 </form><!-- .search-form -->
@@ -926,7 +995,7 @@ body.custom-background { background-color: #fefefe; }
 </li>
 			</ul>
 
-			</div><div id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title"><span><span class="widget-title-word widget-title-word-1">Recent</span> <span class="widget-title-word widget-title-word-2">Comments</span></span></h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Ramon De Leon</span> on <a href="https://beebuk.com/demo/product/sara-rojas/#comment-6">Sara Rojas</a></li><li class="recentcomments"><span class="comment-author-link">Juana Perez</span> on <a href="https://beebuk.com/demo/product/juan-perez/#comment-3">Juan Perez</a></li></ul></div><div id="tag_cloud-1" class="widget widget_tag_cloud"><h3 class="widget-title"><span><span class="widget-title-word widget-title-word-1">Tags</span></span></h3><div class="tagcloud"><span><a href="https://beebuk.com/demo/tag/comments/" class="tag-cloud-link tag-link-32 tag-link-position-1" style="font-size: 22pt;" aria-label="comments (5 items)">comments</a></span>
+			</div><div id="recent-comments-3" class="widget widget_recent_comments"><h3 class="widget-title"><span><span class="widget-title-word widget-title-word-1">Recent</span> <span class="widget-title-word widget-title-word-2">Comments</span></span></h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Patricia Del Carmen</span> on <a href="https://beebuk.com/demo/product/lorena-blanco/#comment-9">Lorena Blanco</a></li><li class="recentcomments"><span class="comment-author-link">Rafael Paredes</span> on <a href="https://beebuk.com/demo/product/mateo-torres/#comment-8">Mateo Torres</a></li><li class="recentcomments"><span class="comment-author-link">Maria Lorena</span> on <a href="https://beebuk.com/demo/product/alejandra-garcia/#comment-7">Alejandra Garcia</a></li><li class="recentcomments"><span class="comment-author-link">Ramon De Leon</span> on <a href="https://beebuk.com/demo/product/sara-rojas/#comment-6">Sara Rojas</a></li><li class="recentcomments"><span class="comment-author-link">Juana Perez</span> on <a href="https://beebuk.com/demo/product/juan-perez/#comment-3">Juan Perez</a></li></ul></div><div id="tag_cloud-1" class="widget widget_tag_cloud"><h3 class="widget-title"><span><span class="widget-title-word widget-title-word-1">Tags</span></span></h3><div class="tagcloud"><span><a href="https://beebuk.com/demo/tag/comments/" class="tag-cloud-link tag-link-32 tag-link-position-1" style="font-size: 22pt;" aria-label="comments (5 items)">comments</a></span>
 <span><a href="https://beebuk.com/demo/tag/demo/" class="tag-cloud-link tag-link-34 tag-link-position-2" style="font-size: 8pt;" aria-label="demo (2 items)">demo</a></span>
 <span><a href="https://beebuk.com/demo/tag/formats/" class="tag-cloud-link tag-link-35 tag-link-position-3" style="font-size: 22pt;" aria-label="formats (5 items)">formats</a></span>
 <span><a href="https://beebuk.com/demo/tag/posts/" class="tag-cloud-link tag-link-38 tag-link-position-4" style="font-size: 8pt;" aria-label="posts (2 items)">posts</a></span>
@@ -950,7 +1019,7 @@ body.custom-background { background-color: #fefefe; }
 	<nav id="nav_bottom" class="bottom-nav l m shadow fw-700 text-uppercase fs-14 icons-center" aria-label="Bottom Menu">
 					<hr class="section-hr">
 			<ul id="menu-bottom-fixed-menu" class="bottom-menu"><li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="https://beebuk.com/demo/shop/" data-hover="Descubre"><span class="nav-menu-item-inside" data-hover="Descubre"><i class="_mi _before dashicons dashicons-screenoptions" aria-hidden="true"></i><span>Descubre</span></span></a></li>
-<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://beebuk.com/demo/cart/" data-hover="Cotizado"><span class="nav-menu-item-inside" data-hover="Cotizado"><i class="_mi _before dashicons dashicons-money" aria-hidden="true"></i><span>Cotizado</span></span></a></li>
+<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://beebuk.com/demo/cart/" data-hover="Trabajos"><span class="nav-menu-item-inside" data-hover="Trabajos"><i class="_mi _before dashicons dashicons-money" aria-hidden="true"></i><span>Trabajos</span></span></a></li>
 <li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a href="https://beebuk.com/demo/wishlist-2/" data-hover="Favoritos"><span class="nav-menu-item-inside" data-hover="Favoritos"><i class="_mi _before dashicons dashicons-smiley" aria-hidden="true"></i><span>Favoritos</span></span></a></li>
 <li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="https://beebuk.com/demo/my-account/" data-hover="Mi Cuenta"><span class="nav-menu-item-inside" data-hover="Mi Cuenta"><i class="_mi _before dashicons dashicons-businessman" aria-hidden="true"></i><span>Mi Cuenta</span></span></a></li>
 </ul>	</nav><!-- .bottom-nav -->
@@ -962,7 +1031,7 @@ body.custom-background { background-color: #fefefe; }
 
 	<input
 		type="search"
-		id="search-form-62fde8a39b9d3"
+		id="search-form-62fe6fcbed6e2"
 		class="search-field"
 		placeholder="Search"
 		value=""
@@ -975,7 +1044,7 @@ body.custom-background { background-color: #fefefe; }
 </span>			<span class="screen-reader-text">Search</span>
 		</button>
 		
-	<label for="search-form-62fde8a39b9d3" class="screen-reader-text">
+	<label for="search-form-62fe6fcbed6e2" class="screen-reader-text">
 		Search for:	</label>
 
 </form><!-- .search-form -->
@@ -1058,12 +1127,10 @@ body.custom-background { background-color: #fefefe; }
 </script>
 <link rel='stylesheet' id='photoswipe-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=6.8.0' media='all' />
 <link rel='stylesheet' id='photoswipe-default-skin-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=6.8.0' media='all' />
-<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0' id='jquery-selectBox-js'></script>
 <script src='//beebuk.com/demo/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6' id='prettyPhoto-js'></script>
 <script id='jquery-yith-wcwl-js-extra'>
-var yith_wcwl_l10n = {"ajax_url":"\/plataforma-lectores\/wordpress\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"http:\/\/beebuk.com\/demo\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"8382a59684","remove_from_wishlist_nonce":"4b74270b9b","reload_wishlist_and_adding_elem_nonce":"ca80aa1cbb","load_mobile_nonce":"53fe9a7816","delete_item_nonce":"22c1eb6c32","save_title_nonce":"e9f5086048","save_privacy_nonce":"479eed567d","load_fragments_nonce":"74fea49a30"}};
+var yith_wcwl_l10n = {"ajax_url":"\/plataforma-lectores\/wordpress\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"http:\/\/beebuk.com\/demo\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"647ac3609b","remove_from_wishlist_nonce":"b1b79fa680","reload_wishlist_and_adding_elem_nonce":"e44613e3cb","load_mobile_nonce":"fc77088325","delete_item_nonce":"6825186fd9","save_title_nonce":"e5574d6241","save_privacy_nonce":"3f306214dc","load_fragments_nonce":"35129ac346"}};
 </script>
 <script src='https://beebuk.com/demo/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.12.0' id='jquery-yith-wcwl-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/dk-pdf/assets/js/frontend.js?ver=1.9.6' id='dkpdf-frontend-js'></script>

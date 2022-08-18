@@ -16,7 +16,7 @@
 	<meta property="og:description" content="Nombre: Mateo Apellido: Torres Género: Masculino Ubicación: Guatemala Servicios: Editor, Editing Idiomas: Español Categorías: Poesía | Romance | Thriller &nbsp;..." />
 	<meta property="og:url" content="https://beebuk.com/demo/product/mateo-torres/" />
 	<meta property="og:site_name" content="BeeBuk" />
-	<meta property="article:modified_time" content="2022-08-17T19:34:36+00:00" />
+	<meta property="article:modified_time" content="2022-08-18T16:06:53+00:00" />
 	<meta property="og:image" content="https://beebuk.com/demo/wp-content/uploads/2022/08/mateo.jpeg" />
 	<meta property="og:image:width" content="1024" />
 	<meta property="og:image:height" content="1024" />
@@ -43,7 +43,7 @@
 	            },
 	            "thumbnailUrl": "https://beebuk.com/demo/wp-content/uploads/2022/08/mateo.jpeg",
 	            "datePublished": "2022-08-17T18:33:38+00:00",
-	            "dateModified": "2022-08-17T19:34:36+00:00",
+	            "dateModified": "2022-08-18T16:06:53+00:00",
 	            "breadcrumb": {
 	                "@id": "https://beebuk.com/demo/product/mateo-torres/#breadcrumb"
 	            },
@@ -157,7 +157,7 @@
 .yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
 </style>
 <link rel='stylesheet' id='ppv-public-css'  href='https://beebuk.com/demo/wp-content/plugins/document-emberdder/dist/public.css?ver=1.8.2' media='all' />
-<link rel='stylesheet' id='jquery-ui-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/css/jquery-ui.css?ver=1660807474' media='all' />
+<link rel='stylesheet' id='jquery-ui-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/css/jquery-ui.css?ver=1660842075' media='all' />
 <link rel='stylesheet' id='wcj-timepicker-style-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/lib/timepicker/jquery.timepicker.min.css?ver=5.6.2' media='all' />
 <link rel='stylesheet' id='photoswipe-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=6.8.0' media='all' />
 <link rel='stylesheet' id='photoswipe-default-skin-css'  href='https://beebuk.com/demo/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=6.8.0' media='all' />
@@ -196,7 +196,13 @@
 <style id='exs-google-fonts-style-inline-css'>
 body,button,input,select,textarea{font-family:"Jost",sans-serif}
 </style>
+<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/document-emberdder/dist/public.js?ver=1.8.2' id='ppv-public-js'></script>
+<script id='wcj-cart-customization-js-extra'>
+var wcj_cart_customization = {"return_to_shop_button_text":"Regresar a Servicios"};
+</script>
+<script src='https://beebuk.com/demo/wp-content/plugins/woocommerce-jetpack/includes/js/wcj-cart-customization.js?ver=5.6.2' id='wcj-cart-customization-js'></script>
 <link rel="https://api.w.org/" href="https://beebuk.com/demo/wp-json/" /><link rel="alternate" type="application/json" href="https://beebuk.com/demo/wp-json/wp/v2/product/651" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://beebuk.com/demo/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.0.1" />
 <meta name="generator" content="WooCommerce 6.8.0" />
@@ -212,25 +218,88 @@ body.custom-background { background-color: #fefefe; }
 <link rel="apple-touch-icon" href="https://beebuk.com/demo/wp-content/uploads/2022/06/cropped-B-3-colores--180x180.png" />
 <meta name="msapplication-TileImage" content="https://beebuk.com/demo/wp-content/uploads/2022/06/cropped-B-3-colores--270x270.png" />
 		<style id="wp-custom-css">
-			#header {
+			/* =================== */
+/* Global */
+
+/* NOTE: This removes the background image, uses gradient for title. Shop page doesn't want to use custom image for some reason. This was this solution for this. */
+section.title {
+	background: linear-gradient(45deg, #043c5d, #06829b) !important;
+}
+
+/* =================== */
+/* Header */
+
+#header {
 	background-color: #f7f7f7 !important;
 }
 
-/* NOTE: Above header, has contact info and social medias.
- * Let's hide it for now!
- * 
- */
+/* NOTE: Above header, has contact info and social media. Let's hide it */
 #topline {
 	display: none;
 }
+
+/* =================== */
+/* Product page */
 
 /* NOTE: Fixes list categories thumbnail size in product page */
 .wc-block-product-categories-list-item__image img {
 	width: 50px;
 	height: 50px;
-}		</style>
+}
+
+/* =================== */
+/* My Account page */
+
+/* NOTE: Hides some Woocommerce stuff */
+.woocommerce-MyAccount-navigation-link--dashboard {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--products {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--wcj-my-products {
+	display: none;
+}
+.woocommerce-MyAccount-navigation-link--edit-address {
+	display: none;
+}
+
+/* =================== */
+/* Wishlist page */
+
+/* NOTE: Styles products table */
+.shop_table thead {
+	display: none;
+}
+.product-stock-status {
+	display: none;
+}
+.product-name .yith-wcqv-button {
+	display: none;
+}
+.yith-wcwl-share-title {
+	visibility: hidden;
+}
+.yith-wcwl-share-title:after {
+  content: 'Compartir en:';
+  visibility: visible;
+  display: block;
+}
+
+/* =================== */
+/* Cart page */
+
+.cart-empty {
+visibility: hidden;
+}
+.cart-empty:after {
+  content: 'No se pudo encontrar ningún trabajo previo, o en algun trabajo en curso.';
+  visibility: visible;
+  display: block;
+}
+		</style>
 		</head>
-<body id="body" class="product-template-default single single-product postid-651 custom-background wp-custom-logo theme-exs-pro woocommerce woocommerce-page woocommerce-demo-store woocommerce-no-js singular with-sidebar btns-uppercase btns-bold meta-icons-main meta-text-dark-muted woo woocommerce header-sticky menu-bold menu-uppercase" itemtype="https://schema.org/Blog" itemscope="itemscope" data-nonce="2e9fb42a5a" data-ajax="https://beebuk.com/demo/wp-admin/admin-ajax.php"
+<body id="body" class="product-template-default single single-product postid-651 custom-background wp-custom-logo theme-exs-pro woocommerce woocommerce-page woocommerce-demo-store woocommerce-no-js singular with-sidebar btns-uppercase btns-bold meta-icons-main meta-text-dark-muted woo woocommerce header-sticky menu-bold menu-uppercase" itemtype="https://schema.org/Blog" itemscope="itemscope" data-nonce="3e66a10c30" data-ajax="https://beebuk.com/demo/wp-admin/admin-ajax.php"
 	>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><a id="skip_link" class="screen-reader-text skip-link" href="#main">Skip to content</a>
 	<!-- preloader -->
@@ -389,7 +458,12 @@ body.custom-background { background-color: #fefefe; }
 </div>
 
 	<div class="summary entry-summary">
-		<p class="price"></p>
+		
+	<div class="woocommerce-product-rating">
+		<div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>								<a href="#reviews" class="woocommerce-review-link" rel="nofollow">(<span class="count">1</span> customer review)</a>
+						</div>
+
+<p class="price"></p>
 <div class="product_meta">
 
 	
@@ -409,7 +483,7 @@ body.custom-background { background-color: #fefefe; }
 			
 <div class="yith-wcwl-add-button">
 		<a
-		href="?add_to_wishlist=651&#038;_wpnonce=8382a59684"
+		href="?add_to_wishlist=651&#038;_wpnonce=647ac3609b"
 		class="add_to_wishlist single_add_to_wishlist"
 		data-product-id="651"
 		data-product-type="simple"
@@ -443,7 +517,7 @@ body.custom-background { background-color: #fefefe; }
 				</li>
 							<li class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
 					<a href="#tab-reviews">
-						Reviews (0)					</a>
+						Reviews (1)					</a>
 				</li>
 					</ul>
 					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
@@ -488,15 +562,35 @@ body.custom-background { background-color: #fefefe; }
 				<div id="reviews" class="woocommerce-Reviews">
 	<div id="comments">
 		<h2 class="woocommerce-Reviews-title">
-			Reviews		</h2>
+			1 review for <span>Mateo Torres</span>		</h2>
 
-					<p class="woocommerce-noreviews">There are no reviews yet.</p>
-			</div>
+					<ol class="commentlist">
+				<li class="review byuser comment-author-admin bypostauthor even thread-even depth-1" id="li-comment-8">
+
+	<div id="comment-8" class="comment_container">
+
+		<img alt='' src='http://0.gravatar.com/avatar/06927b97e6dd9aaf04f0e404e8208b39?s=60&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/06927b97e6dd9aaf04f0e404e8208b39?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy'/>
+		<div class="comment-text">
+
+			<div class="star-rating" role="img" aria-label="Rated 5 out of 5"><span style="width:100%">Rated <strong class="rating">5</strong> out of 5</span></div>
+	<p class="meta">
+		<strong class="woocommerce-review__author">Rafael Paredes </strong>
+				<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-08-18T11:02:35-05:00">August 18, 2022</time>
+	</p>
+
+	<div class="description"><p>Mateo fue justo lo que necesitaba. Excelente comunicación y retroalimentación. Lo recomiendo mucho.</p>
+</div>
+		</div>
+	</div>
+</li><!-- #comment-## -->
+			</ol>
+
+						</div>
 
 			<div id="review_form_wrapper">
 			<div id="review_form">
 					<div id="respond" class="comment-respond">
-		<span id="reply-title" class="comment-reply-title">Be the first to review &ldquo;Mateo Torres&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="/plataforma-lectores/wordpress/product/mateo-torres/#respond" style="display:none;">Cancel reply</a></small></span><form action="https://beebuk.com/demo/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><div class="comment-form-rating"><label for="rating">Your rating&nbsp;<span class="required">*</span></label><select name="rating" id="rating" required>
+		<span id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow" id="cancel-comment-reply-link" href="/plataforma-lectores/wordpress/product/mateo-torres/#respond" style="display:none;">Cancel reply</a></small></span><form action="https://beebuk.com/demo/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message" aria-hidden="true">Required fields are marked <span class="required" aria-hidden="true">*</span></span></p><div class="comment-form-rating"><label for="rating">Your rating&nbsp;<span class="required">*</span></label><select name="rating" id="rating" required>
 						<option value="">Rate&hellip;</option>
 						<option value="5">Perfect</option>
 						<option value="4">Good</option>
@@ -508,7 +602,7 @@ body.custom-background { background-color: #fefefe; }
 <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='651' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-</p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="166"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+</p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="227"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
 				</div>
 		</div>
 	
@@ -521,45 +615,12 @@ body.custom-background { background-color: #fefefe; }
 
 	<section class="related products">
 
-					<h2>Related products</h2>
+					<h2>Mas Usuarios</h2>
 				
 		<ul class="products columns-3">
 
 			
-					<li class="product type-product post-649 status-publish first instock product_cat-correccion product_tag-autoayuda product_tag-ficcion product_tag-no-ficcion product_tag-romance has-post-thumbnail shipping-taxable product-type-simple">
-	<div class="product-loop-item"><div class="product-thumbnail-wrap"><a href="https://beebuk.com/demo/product/alejandra-garcia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-300x300.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-300x300.jpeg 300w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-150x150.jpeg 150w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-768x768.jpeg 768w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-855x855.jpeg 855w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-800x800.jpeg 800w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-600x600.jpeg 600w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-100x100.jpeg 100w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="product-animation-button  "><a href="https://beebuk.com/demo/product/alejandra-garcia/" data-quantity="1" class="button product_type_simple" data-product_id="649" data-product_sku="" aria-label="Read more about &ldquo;Alejandra Garcia&rdquo;" rel="nofollow">Read more</a></div><div class="product-buttons-wrap "><a class="button view_product" href="https://beebuk.com/demo/product/alejandra-garcia/"></a><a href="#" class="yith-wcqv-button" data-product_id="649">Quick View</a>
-<div
-	class="yith-wcwl-add-to-wishlist add-to-wishlist-649  wishlist-fragment on-first-load"
-	data-fragment-ref="649"
-	data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:649,&quot;parent_product_id&quot;:649,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}"
->
-			
-			<!-- ADD TO WISHLIST -->
-			
-<div class="yith-wcwl-add-button">
-		<a
-		href="?add_to_wishlist=649&#038;_wpnonce=8382a59684"
-		class="add_to_wishlist single_add_to_wishlist"
-		data-product-id="649"
-		data-product-type="simple"
-		data-original-product-id="649"
-		data-title="Add to wishlist"
-		rel="nofollow"
-	>
-		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
-	</a>
-</div>
-
-			<!-- COUNT TEXT -->
-			
-			</div>
-</div><!-- .product-buttons-wrap --></div><!-- .product-thumbnail-wrap --><div class="product-text-wrap    show-cat   "><div class="product-title-cat-wrap"><h2 class="woocommerce-loop-product__title"><a href="https://beebuk.com/demo/product/alejandra-garcia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Alejandra Garcia</a></h2>		<span class="posted_in"><a href="https://beebuk.com/demo/product-category/correccion/" rel="tag">Correccion</a></span></div><!-- .product-title-cat-wrap --><div class="product-rating-wrap visible">			<a href="https://beebuk.com/demo/product/alejandra-garcia/#reviews" class="product-review-link" rel="nofollow">
-				<span class="count">0</span> reviews			</a>
-			</div><!-- .product-rating-wrap -->
-<div class="product-short-description"></div><!-- .product-short-description --><a href="https://beebuk.com/demo/product/alejandra-garcia/" data-quantity="1" class="button product_type_simple" data-product_id="649" data-product_sku="" aria-label="Read more about &ldquo;Alejandra Garcia&rdquo;" rel="nofollow">Read more</a></div><!--.product-text-wrap--></div><!--.product-loop-item--></li>
-
-			
-					<li class="product type-product post-590 status-publish instock product_cat-ilustracion product_cat-maquetacion product_cat-portada product_tag-arte product_tag-scifi product_tag-clasicos product_tag-comics product_tag-contemporaneo product_tag-fantasia product_tag-ficcion product_tag-historico product_tag-infantil product_tag-manga product_tag-misterio-y-suspenso product_tag-no-ficcion product_tag-otro product_tag-paranormal product_tag-poesia product_tag-romance product_tag-thriller product_tag-young-adult has-post-thumbnail shipping-taxable product-type-simple">
+					<li class="product type-product post-590 status-publish first instock product_cat-ilustracion product_cat-maquetacion product_cat-portada product_tag-arte product_tag-scifi product_tag-clasicos product_tag-comics product_tag-contemporaneo product_tag-fantasia product_tag-ficcion product_tag-historico product_tag-infantil product_tag-manga product_tag-misterio-y-suspenso product_tag-no-ficcion product_tag-otro product_tag-paranormal product_tag-poesia product_tag-romance product_tag-thriller product_tag-young-adult has-post-thumbnail shipping-taxable product-type-simple">
 	<div class="product-loop-item"><div class="product-thumbnail-wrap"><a href="https://beebuk.com/demo/product/juan-perez/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-300x300.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-300x300.jpeg 300w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-150x150.jpeg 150w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-768x768.jpeg 768w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-855x855.jpeg 855w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-800x800.jpeg 800w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-600x600.jpeg 600w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb-100x100.jpeg 100w, https://beebuk.com/demo/wp-content/uploads/2022/08/avatar-73a18404b0b097609abd15a5f3265ddb.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="product-animation-button  "><a href="https://beebuk.com/demo/product/juan-perez/" data-quantity="1" class="button product_type_simple" data-product_id="590" data-product_sku="" aria-label="Read more about &ldquo;Juan Perez&rdquo;" rel="nofollow">Read more</a></div><div class="product-buttons-wrap "><a class="button view_product" href="https://beebuk.com/demo/product/juan-perez/"></a><a href="#" class="yith-wcqv-button" data-product_id="590">Quick View</a>
 <div
 	class="yith-wcwl-add-to-wishlist add-to-wishlist-590  wishlist-fragment on-first-load"
@@ -571,7 +632,7 @@ body.custom-background { background-color: #fefefe; }
 			
 <div class="yith-wcwl-add-button">
 		<a
-		href="?add_to_wishlist=590&#038;_wpnonce=8382a59684"
+		href="?add_to_wishlist=590&#038;_wpnonce=647ac3609b"
 		class="add_to_wishlist single_add_to_wishlist"
 		data-product-id="590"
 		data-product-type="simple"
@@ -590,6 +651,39 @@ body.custom-background { background-color: #fefefe; }
 				<span class="count">1</span> review			</a>
 			</div><!-- .product-rating-wrap -->
 <div class="product-short-description"></div><!-- .product-short-description --><a href="https://beebuk.com/demo/product/juan-perez/" data-quantity="1" class="button product_type_simple" data-product_id="590" data-product_sku="" aria-label="Read more about &ldquo;Juan Perez&rdquo;" rel="nofollow">Read more</a></div><!--.product-text-wrap--></div><!--.product-loop-item--></li>
+
+			
+					<li class="product type-product post-649 status-publish instock product_cat-correccion product_tag-autoayuda product_tag-ficcion product_tag-no-ficcion product_tag-romance has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="product-loop-item"><div class="product-thumbnail-wrap"><a href="https://beebuk.com/demo/product/alejandra-garcia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-300x300.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-300x300.jpeg 300w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-150x150.jpeg 150w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-768x768.jpeg 768w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-855x855.jpeg 855w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-800x800.jpeg 800w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-600x600.jpeg 600w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra-100x100.jpeg 100w, https://beebuk.com/demo/wp-content/uploads/2022/08/alejandra.jpeg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a><div class="product-animation-button  "><a href="https://beebuk.com/demo/product/alejandra-garcia/" data-quantity="1" class="button product_type_simple" data-product_id="649" data-product_sku="" aria-label="Read more about &ldquo;Alejandra Garcia&rdquo;" rel="nofollow">Read more</a></div><div class="product-buttons-wrap "><a class="button view_product" href="https://beebuk.com/demo/product/alejandra-garcia/"></a><a href="#" class="yith-wcqv-button" data-product_id="649">Quick View</a>
+<div
+	class="yith-wcwl-add-to-wishlist add-to-wishlist-649  wishlist-fragment on-first-load"
+	data-fragment-ref="649"
+	data-fragment-options="{&quot;base_url&quot;:&quot;&quot;,&quot;in_default_wishlist&quot;:false,&quot;is_single&quot;:false,&quot;show_exists&quot;:false,&quot;product_id&quot;:649,&quot;parent_product_id&quot;:649,&quot;product_type&quot;:&quot;simple&quot;,&quot;show_view&quot;:false,&quot;browse_wishlist_text&quot;:&quot;Browse wishlist&quot;,&quot;already_in_wishslist_text&quot;:&quot;The product is already in your wishlist!&quot;,&quot;product_added_text&quot;:&quot;Product added!&quot;,&quot;heading_icon&quot;:&quot;fa-heart-o&quot;,&quot;available_multi_wishlist&quot;:false,&quot;disable_wishlist&quot;:false,&quot;show_count&quot;:false,&quot;ajax_loading&quot;:false,&quot;loop_position&quot;:&quot;after_add_to_cart&quot;,&quot;item&quot;:&quot;add_to_wishlist&quot;}"
+>
+			
+			<!-- ADD TO WISHLIST -->
+			
+<div class="yith-wcwl-add-button">
+		<a
+		href="?add_to_wishlist=649&#038;_wpnonce=647ac3609b"
+		class="add_to_wishlist single_add_to_wishlist"
+		data-product-id="649"
+		data-product-type="simple"
+		data-original-product-id="649"
+		data-title="Add to wishlist"
+		rel="nofollow"
+	>
+		<i class="yith-wcwl-icon fa fa-heart-o"></i>		<span>Add to wishlist</span>
+	</a>
+</div>
+
+			<!-- COUNT TEXT -->
+			
+			</div>
+</div><!-- .product-buttons-wrap --></div><!-- .product-thumbnail-wrap --><div class="product-text-wrap    show-cat   "><div class="product-title-cat-wrap"><h2 class="woocommerce-loop-product__title"><a href="https://beebuk.com/demo/product/alejandra-garcia/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Alejandra Garcia</a></h2>		<span class="posted_in"><a href="https://beebuk.com/demo/product-category/correccion/" rel="tag">Correccion</a></span></div><!-- .product-title-cat-wrap --><div class="product-rating-wrap visible"><div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>			<a href="https://beebuk.com/demo/product/alejandra-garcia/#reviews" class="product-review-link" rel="nofollow">
+				<span class="count">1</span> review			</a>
+			</div><!-- .product-rating-wrap -->
+<div class="product-short-description"></div><!-- .product-short-description --><a href="https://beebuk.com/demo/product/alejandra-garcia/" data-quantity="1" class="button product_type_simple" data-product_id="649" data-product_sku="" aria-label="Read more about &ldquo;Alejandra Garcia&rdquo;" rel="nofollow">Read more</a></div><!--.product-text-wrap--></div><!--.product-loop-item--></li>
 
 			
 		</ul>
@@ -642,7 +736,7 @@ body.custom-background { background-color: #fefefe; }
 	<nav id="nav_bottom" class="bottom-nav l m shadow fw-700 text-uppercase fs-14 icons-center" aria-label="Bottom Menu">
 					<hr class="section-hr">
 			<ul id="menu-bottom-fixed-menu" class="bottom-menu"><li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-366"><a href="https://beebuk.com/demo/shop/" data-hover="Descubre"><span class="nav-menu-item-inside" data-hover="Descubre"><i class="_mi _before dashicons dashicons-screenoptions" aria-hidden="true"></i><span>Descubre</span></span></a></li>
-<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://beebuk.com/demo/cart/" data-hover="Cotizado"><span class="nav-menu-item-inside" data-hover="Cotizado"><i class="_mi _before dashicons dashicons-money" aria-hidden="true"></i><span>Cotizado</span></span></a></li>
+<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://beebuk.com/demo/cart/" data-hover="Trabajos"><span class="nav-menu-item-inside" data-hover="Trabajos"><i class="_mi _before dashicons dashicons-money" aria-hidden="true"></i><span>Trabajos</span></span></a></li>
 <li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a href="https://beebuk.com/demo/wishlist-2/" data-hover="Favoritos"><span class="nav-menu-item-inside" data-hover="Favoritos"><i class="_mi _before dashicons dashicons-smiley" aria-hidden="true"></i><span>Favoritos</span></span></a></li>
 <li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="https://beebuk.com/demo/my-account/" data-hover="Mi Cuenta"><span class="nav-menu-item-inside" data-hover="Mi Cuenta"><i class="_mi _before dashicons dashicons-businessman" aria-hidden="true"></i><span>Mi Cuenta</span></span></a></li>
 </ul>	</nav><!-- .bottom-nav -->
@@ -654,7 +748,7 @@ body.custom-background { background-color: #fefefe; }
 
 	<input
 		type="search"
-		id="search-form-62fde93357c9b"
+		id="search-form-62fe705c52852"
 		class="search-field"
 		placeholder="Search"
 		value=""
@@ -667,7 +761,7 @@ body.custom-background { background-color: #fefefe; }
 </span>			<span class="screen-reader-text">Search</span>
 		</button>
 		
-	<label for="search-form-62fde93357c9b" class="screen-reader-text">
+	<label for="search-form-62fe705c52852" class="screen-reader-text">
 		Search for:	</label>
 
 </form><!-- .search-form -->
@@ -698,7 +792,7 @@ body.custom-background { background-color: #fefefe; }
 		</div>
 	</div>
 </div>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"http:\/\/beebuk.com\/demo"}},{"@type":"ListItem","position":2,"item":{"name":"Editing","@id":"http:\/\/beebuk.com\/demo\/product-category\/editing\/"}},{"@type":"ListItem","position":3,"item":{"name":"Mateo Torres","@id":"http:\/\/beebuk.com\/demo\/product\/mateo-torres\/"}}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"http:\/\/beebuk.com\/demo"}},{"@type":"ListItem","position":2,"item":{"name":"Editing","@id":"http:\/\/beebuk.com\/demo\/product-category\/editing\/"}},{"@type":"ListItem","position":3,"item":{"name":"Mateo Torres","@id":"http:\/\/beebuk.com\/demo\/product\/mateo-torres\/"}}]},{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"http:\/\/beebuk.com\/demo\/product\/mateo-torres\/#product","name":"Mateo Torres","url":"http:\/\/beebuk.com\/demo\/product\/mateo-torres\/","description":"Nombre: Mateo\r\nApellido: Torres\r\nG\u00e9nero: Masculino\r\nUbicaci\u00f3n: Guatemala\r\nServicios: Editor, Editing\r\nIdiomas: Espa\u00f1ol\r\nCategor\u00edas: Poes\u00eda | Romance | Thriller\r\n\r\n\r\n&amp;nbsp;\r\nMas Informacion\r\n\r\nVer Portafolio\r\nVer Precios\r\n\r\nSoy hablante nativo de espa\u00f1ol y me apasiona leer, editar y ayudar a otros a hacer que el contenido de su blog, libro o art\u00edculo sea perfecto para su audiencia. Me tomar\u00e9 mi tiempo para leer meticulosamente su contenido en l\u00ednea y hacer lo siguiente:\r\n\r\nRevisar la ortograf\u00eda de tu contenido\r\nComprobar la gram\u00e1tica y la ortograf\u00eda\r\nHacer ajustes en la estructura y el flujo de las oraciones\r\nEdici\u00f3n estructural","image":"http:\/\/beebuk.com\/demo\/wp-content\/uploads\/2022\/08\/mateo.jpeg","sku":651,"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.00","reviewCount":1},"review":[{"@type":"Review","reviewRating":{"@type":"Rating","bestRating":"5","ratingValue":"5","worstRating":"1"},"author":{"@type":"Person","name":"Rafael Paredes"},"reviewBody":"Mateo fue justo lo que necesitaba. Excelente comunicaci\u00f3n y retroalimentaci\u00f3n. Lo recomiendo mucho.","datePublished":"2022-08-18T11:02:35-05:00"}]}]}</script>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="pswp__bg"></div>
 	<div class="pswp__scroll-wrap">
@@ -748,12 +842,10 @@ body.custom-background { background-color: #fefefe; }
 <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 </script>
-<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script src='https://beebuk.com/demo/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0' id='jquery-selectBox-js'></script>
 <script src='//beebuk.com/demo/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6' id='prettyPhoto-js'></script>
 <script id='jquery-yith-wcwl-js-extra'>
-var yith_wcwl_l10n = {"ajax_url":"\/plataforma-lectores\/wordpress\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"http:\/\/beebuk.com\/demo\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"8382a59684","remove_from_wishlist_nonce":"4b74270b9b","reload_wishlist_and_adding_elem_nonce":"ca80aa1cbb","load_mobile_nonce":"53fe9a7816","delete_item_nonce":"22c1eb6c32","save_title_nonce":"e9f5086048","save_privacy_nonce":"479eed567d","load_fragments_nonce":"74fea49a30"}};
+var yith_wcwl_l10n = {"ajax_url":"\/plataforma-lectores\/wordpress\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"http:\/\/beebuk.com\/demo\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"647ac3609b","remove_from_wishlist_nonce":"b1b79fa680","reload_wishlist_and_adding_elem_nonce":"e44613e3cb","load_mobile_nonce":"fc77088325","delete_item_nonce":"6825186fd9","save_title_nonce":"e5574d6241","save_privacy_nonce":"3f306214dc","load_fragments_nonce":"35129ac346"}};
 </script>
 <script src='https://beebuk.com/demo/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.12.0' id='jquery-yith-wcwl-js'></script>
 <script src='https://beebuk.com/demo/wp-content/plugins/dk-pdf/assets/js/frontend.js?ver=1.9.6' id='dkpdf-frontend-js'></script>
