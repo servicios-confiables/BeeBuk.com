@@ -1,180 +1,215 @@
-# Remix Indie Stack
 
-![The Remix Indie Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
+# Next.js + Shopify + Builder.io starter kit
 
-Learn more about [Remix Stacks](https://remix.run/stacks).
+The ultimate starter for headless Shopify stores. 
+
+Demo live at: [headless.builders](https://headless.builders/)
+
+## Goals and Features
+
+- Ultra high performance
+- SEO optimized
+- Themable
+- Personalizable (internationalization, a/b testing, etc)
+- Builder.io Visual CMS integrated
+
+## Video walkthrough
+
+Learn how to get started with this Builder + Next.js + Shopify starter with this step by step video guide here:
+
+<a href="https://www.youtube.com/watch?v=uIHqPu2t1O0">
+  <img width="400" src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fc161ccb26f6446869cba865d014c7caf" />  
+</a>
+
+## Table of contents
+
+  - [Getting Started](#getting-started)
+      - [1: Create an account for Builder.io](#1-create-an-account-for-builderio)
+      - [2: Your Builder.io private key](#2-your-builderio-private-key)
+      - [3: Clone this repository and initialize a Builder.io space](#3-clone-this-repository-and-initialize-a-builderio-space)
+      - [4. Shopify private app](#4-shopify-private-app)
+      - [5. Connecting Builder to Shopify](#5-connecting-builder-to-shopify)
+      - [6. Configure the project to talk to Shopify](#6-configure-the-project-to-talk-to-shopify)
+      - [7. Up and Running!](#7-up-and-running)
+  - [Deploy](#deploy)
+
+<!-- markdown-toc end -->
+
+
+## Getting Started
+
+**Pre-requisites**
+
+This guide will assume that you have the following software installed:
+
+- nodejs (>=12.0.0)
+- npm
+- git
+
+You should already have a [Shopify](https://www.shopify.com/online-store) account and store created before starting as well. 
+
+**Introduction**
+
+This starter kit is everything you need to get your own self hosted
+Next.js project powered by Builder.io for content and Shopify as an
+e-commerce back office.
+
+After following this guide you will have
+
+- A Next.js app, ready to deploy to a hosting provider of your choice
+- Pulling live collection and product information from Shopify
+- Powered by the Builder.io visual CMS
+
+### 1: Create an account for Builder.io
+
+Before we start, head over to Builder.io and [create an account](https://builder.io/signup).
+
+### 2: Your Builder.io private key
+
+Head over to your [organization settings page](https://builder.io/account/organization?root=true) and create a
+private key, copy the key for the next step.
+
+- Visit the [organization settings page](https://builder.io/account/organization?root=true), or select
+  an organization from the list 
+
+![organizations drop down list](./docs/images/builder-io-organizations.png)
+
+- Click "Account" from the left hand sidebar
+- Click the edit icon for the "Private keys" row
+- Copy the value of the auto-generated key, or create a new one with a name that's meaningful to you
+
+
+![Example of how to get your private key](./docs/images/private-key-flow.png)
+
+### 3: Clone this repository and initialize a Builder.io space
+
+Next, we'll create a copy of the starter project, and create a new
+[space](https://www.builder.io/c/docs/spaces) for it's content to live
+in.
+
+In the example below, replace `<private-key>` with the key you copied
+in the previous step, and change `<space-name>` to something that's
+meaningful to you -- don't worry, you can change it later!
 
 ```
-npx create-remix --template remix-run/indie-stack
+git clone https://github.com/BuilderIO/nextjs-shopify.git
+cd nextjs-shopify
+
+npm install --global "@builder.io/cli"
+
+builder create --key "<private-key>" --name "<space-name>" --debug
 ```
 
-## What's in the stack
+Note:
+if you're only interested in using this starter for a landing page with Shopify use this command instead:
 
-- [Fly app deployment](https://fly.io) with [Docker](https://www.docker.com/)
-- Production-ready [SQLite Database](https://sqlite.org)
-- Healthcheck endpoint for [Fly backups region fallbacks](https://fly.io/docs/reference/configuration/#services-http_checks)
-- [GitHub Actions](https://github.com/features/actions) for deploy on merge to production and staging environments
-- Email/Password Authentication with [cookie-based sessions](https://remix.run/docs/en/v1/api/remix#createcookiesessionstorage)
-- Database ORM with [Prisma](https://prisma.io)
-- Styling with [Tailwind](https://tailwindcss.com/)
-- End-to-end testing with [Cypress](https://cypress.io)
-- Local third party request mocking with [MSW](https://mswjs.io)
-- Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
-- Code formatting with [Prettier](https://prettier.io)
-- Linting with [ESLint](https://eslint.org)
-- Static Types with [TypeScript](https://typescriptlang.org)
-
-Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --template your/repo`! Make it your own.
-
-## Quickstart
-
-Click this button to create a [Gitpod](https://gitpod.io) workspace with the project set up and Fly pre-installed
-
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
-
-## Development
-
-- This step only applies if you've opted out of having the CLI install dependencies for you:
-
-  ```sh
-  npx remix init
-  ```
-
-- Initial setup: _If you just generated this project, this step has been done for you._
-
-  ```sh
-  npm run setup
-  ```
-
-- Start dev server:
-
-  ```sh
-  npm run dev
-  ```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-The database seed script creates a new user with some data you can use to get started:
-
-- Email: `rachel@remix.run`
-- Password: `racheliscool`
-
-### Relevant code:
-
-This is a pretty simple note-taking app, but it's a good example of how you can build a full stack app with Prisma and Remix. The main functionality is creating users, logging in and out, and creating and deleting notes.
-
-- creating users, and logging in and out [./app/models/user.server.ts](./app/models/user.server.ts)
-- user sessions, and verifying them [./app/session.server.ts](./app/session.server.ts)
-- creating, and deleting notes [./app/models/note.server.ts](./app/models/note.server.ts)
-
-## Deployment
-
-This Remix Stack comes with two GitHub Actions that handle automatically deploying your app to production and staging environments.
-
-Prior to your first deployment, you'll need to do a few things:
-
-- [Install Fly](https://fly.io/docs/getting-started/installing-flyctl/)
-
-- Sign up and log in to Fly
-
-  ```sh
-  fly auth signup
-  ```
-
-  > **Note:** If you have more than one Fly account, ensure that you are signed into the same account in the Fly CLI as you are in the browser. In your terminal, run `fly auth whoami` and ensure the email matches the Fly account signed into the browser.
-
-- Create two apps on Fly, one for staging and one for production:
-
-  ```sh
-  fly apps create beebuk-f031
-  fly apps create beebuk-f031-staging
-  ```
-
-  > **Note:** Make sure this name matches the `app` set in your `fly.toml` file. Otherwise, you will not be able to deploy.
-
-  - Initialize Git.
-
-  ```sh
-  git init
-  ```
-
-- Create a new [GitHub Repository](https://repo.new), and then add it as the remote for your project. **Do not push your app yet!**
-
-  ```sh
-  git remote add origin <ORIGIN_URL>
-  ```
-
-- Add a `FLY_API_TOKEN` to your GitHub repo. To do this, go to your user settings on Fly and create a new [token](https://web.fly.io/user/personal_access_tokens/new), then add it to [your repo secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the name `FLY_API_TOKEN`.
-
-- Add a `SESSION_SECRET` to your fly app secrets, to do this you can run the following commands:
-
-  ```sh
-  fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app beebuk-f031
-  fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app beebuk-f031-staging
-  ```
-
-  If you don't have openssl installed, you can also use [1password](https://1password.com/password-generator/) to generate a random secret, just replace `$(openssl rand -hex 32)` with the generated secret.
-
-- Create a persistent volume for the sqlite database for both your staging and production environments. Run the following:
-
-  ```sh
-  fly volumes create data --size 1 --app beebuk-f031
-  fly volumes create data --size 1 --app beebuk-f031-staging
-  ```
-
-Now that everything is set up you can commit and push your changes to your repo. Every commit to your `main` branch will trigger a deployment to your production environment, and every commit to your `dev` branch will trigger a deployment to your staging environment.
-
-### Connecting to your database
-
-The sqlite database lives at `/data/sqlite.db` in your deployed application. You can connect to the live database by running `fly ssh console -C database-cli`.
-
-### Getting Help with Deployment
-
-If you run into any issues deploying to Fly, make sure you've followed all of the steps above and if you have, then post as many details about your deployment (including your app name) to [the Fly support community](https://community.fly.io). They're normally pretty responsive over there and hopefully can help resolve any of your deployment issues and questions.
-
-## GitHub Actions
-
-We use GitHub Actions for continuous integration and deployment. Anything that gets into the `main` branch will be deployed to production after running tests/build/etc. Anything in the `dev` branch will be deployed to staging.
-
-## Testing
-
-### Cypress
-
-We use Cypress for our End-to-End tests in this project. You'll find those in the `cypress` directory. As you make changes, add to an existing file or create a new file in the `cypress/e2e` directory to test your changes.
-
-We use [`@testing-library/cypress`](https://testing-library.com/cypress) for selecting elements on the page semantically.
-
-To run these tests in development, run `npm run test:e2e:dev` which will start the dev server for the app as well as the Cypress client. Make sure the database is running in docker as described above.
-
-We have a utility for testing authenticated features without having to go through the login flow:
-
-```ts
-cy.login();
-// you are now logged in as a new user
+```
+builder create --key "<private-key>" --name "<space-name>" --input builder-landing-page-only --debug
 ```
 
-We also have a utility to auto-delete the user at the end of your test. Just make sure to add this in each test file:
 
-```ts
-afterEach(() => {
-  cy.cleanupUser();
-});
+If this was a success you should be greeted with a message that
+includes a public API key for your newly minted Builder.io space.
+
+*Note: This command will also publish some starter builder.io cms
+content from the ./builder directory to your new space when it's
+created.*
+
+``` bash
+  ____            _   _       _                     _                    _   _ 
+| __ )   _   _  (_) | |   __| |   ___   _ __      (_)   ___       ___  | | (_)
+|  _ \  | | | | | | | |  / _` |  / _ \ | '__|     | |  / _ \     / __| | | | |
+| |_) | | |_| | | | | | | (_| | |  __/ | |     _  | | | (_) |   | (__  | | | |
+|____/   \__,_| |_| |_|  \__,_|  \___| |_|    (_) |_|  \___/     \___| |_| |_|
+
+|████████████████████████████████████████| shopify-product | 0/0
+|████████████████████████████████████████| product-page: writing generic-template.json | 1/1
+|████████████████████████████████████████| shopify-collection | 0/0
+|████████████████████████████████████████| collection-page: writing generic-collection.json | 1/1
+|████████████████████████████████████████| page: writing homepage.json | 2/2
+
+
+Your new space "next.js shopify starter" public API Key: 012345abcdef0123456789abcdef0123
 ```
 
-That way, we can keep your local db clean and keep your tests isolated from one another.
+Copy the public API key ("012345abcdef0123456789abcdef0123" in the example above) for the next step.
 
-### Vitest
+This starter project uses dotenv files to configure environment variables.
+Open the files [.env.development](./.env.development) and
+[.env.production](./.env.production) in your favorite text editor, and
+set the value of `BUILDER_PUBLIC_KEY` to the public key you just copied.
+You can ignore the other variables for now, we'll set them later.
 
-For lower level tests of utilities and individual components, we use `vitest`. We have DOM-specific assertion helpers via [`@testing-library/jest-dom`](https://testing-library.com/jest-dom).
+```diff
++ BUILDER_PUBLIC_KEY=012345abcdef0123456789abcdef0123
+- BUILDER_PUBLIC_KEY=
+SHOPIFY_STOREFRONT_API_TOKEN=
+SHOPIFY_STORE_DOMAIN=
+```
 
-### Type Checking
+### 4. Shopify Custom App 
 
-This project uses TypeScript. It's recommended to get TypeScript set up for your editor to get a really great in-editor experience with type checking and auto-complete. To run type checking across the whole project, run `npm run typecheck`.
+Create a [custom app](https://help.shopify.com/en/manual/apps/custom-apps) for your Shopify store. If you don't have a Shopify store already, you can create a [development store](https://help.shopify.com/en/partners/dashboard/managing-stores/development-stores).
 
-### Linting
+When creating the private app you'll have to set a number of permissions so that builder can retrieve your Shopify inventory. For this press on `Storefront API` in the configuration tab and choose all the following permissions:
 
-This project uses ESLint for linting. That is configured in `.eslintrc.js`.
+![List of required permissions](https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F24ebad91e8774a7e814487432391f4c6)
 
-### Formatting
 
-We use [Prettier](https://prettier.io/) for auto-formatting in this project. It's recommended to install an editor plugin (like the [VSCode Prettier plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) to get auto-formatting on save. There's also a `npm run format` script you can run to format all files in the project.
+Then in the `API Credentials` tab, click `install`:
+
+![installing custom app](https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Ffd00307e14ed40babe2d569d7a297e81)
+
+And copy the generated access token.
+
+
+### 5. Connecting Builder to Shopify
+
+Access your newly created space by selecting it from the [list of spaces](https://builder.io/spaces?root=true)
+in your organization.
+
+You should be greeted by a modal asking for various your storefront Access toke (from preview step) and your store domain, this will allow Builder.io to communicate with your store API:
+
+![Example of where the Shopify API keys map to Builder settings](https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F30b68ab3caf544ca92a06f073bb27b55)
+
+Fill in the required keys and press "Connect your Shopify Custom App"!
+
+### 6. Configure the project to talk to Shopify
+
+Open up [.env.development](./.env.development) and [.env.production](./.env.production) again,
+but this time set the other two Shopify keys.
+
+```diff
+BUILDER_PUBLIC_KEY=012345abcdef0123456789abcdef0123
++ SHOPIFY_STOREFRONT_API_TOKEN=c11b4053408085753bd76a45806f80dd
+- SHOPIFY_STOREFRONT_API_TOKEN=
++ SHOPIFY_STORE_DOMAIN=dylanbuilder.myshopify.com
+- SHOPIFY_STORE_DOMAIN=
+```
+
+### 7. Up and Running!
+
+The hard part is over, all you have to do is start up the project now.
+
+```bash
+npm install
+npm run dev
+```
+
+This will start a server at `http://localhost:3000`.
+
+### 8. Start building
+Now that we have everything setup, start building and publishing pages on builder.io, for a demo on building something similar to the [demo homepage](https://headless.builders), follow the steps in this [short video](https://www.loom.com/share/9b947acbbf714ee3ac6c319c130cdb85)
+
+## Deployment Options
+
+You can deploy this code anywhere you like - you can find many deployment options for Next.js [here](https://nextjs.org/docs/deployment). The following options support one click installs and are super easy to start with:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbuilderio%2Fnextjs-shopify)
+
+  - Vercel: for more information check [Vercel docs on Next.js deployments](https://vercel.com/docs/next.js/overview) Or try the one click install by clicking the button above.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BuilderIO/nextjs-shopify)
+
+- Netlify: For more information check [Netlify docs on Next.js deployments](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/) Or try the one click install by clicking the button above.
+
