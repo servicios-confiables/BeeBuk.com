@@ -22,7 +22,7 @@ const FeatureBar = dynamic(() => import('@components/common/FeatureBar'), {
   ssr: false,
 })
 
-const Layout: React.FC<{ pageProps: any }> = ({ children, pageProps }) => {
+const Layout: React.FC<{ pageProps: any; children: React.ReactNode }> = ({ children, pageProps }) => {
   const builderTheme = pageProps.theme
   const isLive = !Builder.isEditing && !Builder.isPreviewing
   return (
@@ -65,6 +65,7 @@ const InnerLayout: React.FC<{
     secondary?: string
     muted?: string
   }
+  children: React.ReactNode
 }> = ({ themeName, children, colorOverrides }) => {
   const theme = {
     ...themesMap[themeName],

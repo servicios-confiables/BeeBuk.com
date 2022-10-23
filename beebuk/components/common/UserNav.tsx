@@ -9,7 +9,7 @@ interface Props {
   className?: string
 }
 
-const UserNav: FC<Props> = ({ className, children, ...props }) => {
+const UserNav: FC<Props> = ({ className, ...props }) => {
   const { toggleSidebar } = useUI()
 
   return (
