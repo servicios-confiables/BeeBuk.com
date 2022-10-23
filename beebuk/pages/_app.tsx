@@ -1,7 +1,7 @@
 import '@assets/main.css'
 import 'keen-slider/keen-slider.min.css'
 
-import { FC } from 'react'
+import React, { FC } from 'react'
 import type { AppProps } from 'next/app'
 
 import { builder, Builder } from '@builder.io/react'
@@ -36,7 +36,7 @@ Builder.register('insertMenu', {
   items: [{ name: 'CloudinaryImage' }],
 })
 
-const Noop: FC = ({ children }) => <>{children}</>
+const Noop: FC<{children: React.ReactNode}> = ({ children }) => <>{children}</>
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const Layout = (Component as any).Layout || Noop
